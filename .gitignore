@@ -1,0 +1,13 @@
+.files/
+__pycache__/
+*.pyc
+*.py[cod]
+*$py.class
+.venv/
+venv/
+.env
+.env.local
+.streamlit/
+streamlit_app.py
+.chainlit/translations/
+notes.txt
