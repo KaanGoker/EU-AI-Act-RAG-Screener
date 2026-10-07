@@ -13,11 +13,7 @@
 </h2>
 
 <p align="center">
-  <img src="assets/EU-AI-Act-RAG-Screener1.png" alt="GetSubtitles app" width="100%">
-</p>
-
-<p align="center">
-  <img src="assets/EU-AI-Act-RAG-Screener2.png" alt="GetSubtitles app" width="100%">
+  <img src="assets/cover.png" alt="EU AI Act RAG Screener: where does your AI system land under the EU AI Act?" width="100%">
 </p>
 
 **EU AI Act RAG Screener Demo** is a compliance assistant that lets you chat with the official text of the EU AI Act. It uses Retrieval-Augmented Generation (RAG) to provide a *preliminary* risk-level assessment (Prohibited, High Risk, Limited Risk) based on your AI system description.
