@@ -1,0 +1,544 @@
+{
+  "as_of": "2026-11-11",
+  "law_in_force": "Regulation (EU) 2024/1689 as amended by Regulation (EU) 2026/1744 (Digital Omnibus on AI); text from the EUR-Lex consolidated version of 27 July 2026",
+  "fields": {
+    "id": "stable id, unique within its class and role",
+    "title": "short name",
+    "detail": "one or two sentences restating the cited provision of the consolidated text",
+    "ref": "corpus unit id or part id",
+    "condition": "optional: the duty applies only in this case",
+    "amended": "optional: present only where a duty changed through Regulation (EU) 2026/1744; one short clause",
+    "note": "Groups: prohibited, high (Annex III and Annex I Section A), high_annex_i_b (Annex I Section B, Article 2(2)), limited, minimal, gpai, not_covered (no obligations)."
+  },
+  "prohibited": {
+    "provider": [
+      {
+        "id": "no-placing-on-market",
+        "title": "Do not place on the market or put into service",
+        "detail": "Points (a) to (c), (ba) and (bb) of Article 5(1) ban placing on the market, putting into service and use; points (d) to (g) ban placing on the market, putting into service 'for this specific purpose' and use; point (h) bans only the use of real-time remote biometric identification in public spaces for law enforcement. For points (ba) and (bb), placing on the market is prohibited where that generation is the intended purpose, or where it is a reasonably foreseeable and reproducible outcome without significant technical modification and the system lacks adequate safeguards to reliably prevent it (Article 5(1a)).",
+        "ref": "art-5-1",
+        "amended": "Points (ba) and (bb) and paragraphs 1a and 1b were added."
+      },
+      {
+        "id": "penalty-prohibited",
+        "title": "Highest fine tier",
+        "detail": "Non-compliance with the Article 5 prohibitions can be fined up to EUR 35 000 000 or, if the offender is an undertaking, up to 7 % of its total worldwide annual turnover for the preceding financial year, whichever is higher; for SMEs, including start-ups, whichever is lower (Article 99(6)).",
+        "ref": "art-99-3"
+      },
+      {
+        "id": "ai-literacy",
+        "title": "AI literacy of staff",
+        "detail": "Providers and deployers of AI systems must take measures to support the development of AI literacy of their staff and of other persons dealing with the operation and use of AI systems on their behalf, taking into account their knowledge, experience, education and training, the context of use and the persons affected. No specific level of AI literacy of any individual has to be guaranteed.",
+        "ref": "art-4-1",
+        "amended": "Now a duty to support AI literacy; no specific level is required of any individual."
+      }
+    ],
+    "deployer": [
+      {
+        "id": "no-use",
+        "title": "Do not use the system",
+        "detail": "Using an AI system for a practice listed in Article 5(1) is prohibited in the same way as placing it on the market. For points (ba) and (bb), use is prohibited where the deployer uses the system for the purpose of generating such material (Article 5(1a)(b)); for real-time remote biometric identification by law enforcement, Article 5(1)(h) and 5(2) to 5(7) set narrow exceptions with prior authorization.",
+        "ref": "art-5-1",
+        "amended": "Points (ba) and (bb) and paragraphs 1a and 1b were added."
+      },
+      {
+        "id": "penalty-prohibited",
+        "title": "Highest fine tier",
+        "detail": "Non-compliance with the Article 5 prohibitions can be fined up to EUR 35 000 000 or, if the offender is an undertaking, up to 7 % of its total worldwide annual turnover for the preceding financial year, whichever is higher; for SMEs, including start-ups, whichever is lower (Article 99(6)).",
+        "ref": "art-99-3"
+      },
+      {
+        "id": "ai-literacy",
+        "title": "AI literacy of staff",
+        "detail": "Providers and deployers of AI systems must take measures to support the development of AI literacy of their staff and of other persons dealing with the operation and use of AI systems on their behalf, taking into account their knowledge, experience, education and training, the context of use and the persons affected. No specific level of AI literacy of any individual has to be guaranteed.",
+        "ref": "art-4-1",
+        "amended": "Now a duty to support AI literacy; no specific level is required of any individual."
+      }
+    ]
+  },
+  "high": {
+    "provider": [
+      {
+        "id": "compliance-requirements",
+        "title": "Meet the Section 2 requirements",
+        "detail": "The high-risk system must comply with the requirements of Chapter III, Section 2 (Articles 8 to 15), taking into account its intended purpose and the generally acknowledged state of the art.",
+        "ref": "art-8-1"
+      },
+      {
+        "id": "risk-management",
+        "title": "Risk management system",
+        "detail": "Establish, implement, document and maintain a risk management system: a continuous iterative process over the whole lifecycle that identifies, estimates and evaluates the risks to health, safety or fundamental rights and adopts measures to address them.",
+        "ref": "art-9"
+      },
+      {
+        "id": "data-governance",
+        "title": "Data and data governance",
+        "detail": "Where models are trained with data, training, validation and testing data sets must meet the quality criteria of Article 10(2) to (4) and Article 4a(1): data governance practices suited to the intended purpose, including an examination of possible biases, and data that are relevant, sufficiently representative and, to the best extent possible, free of errors and complete. Without training, these criteria apply only to the testing data sets (Article 10(6)).",
+        "ref": "art-10",
+        "amended": "Processing special categories of personal data for bias detection is now governed by Article 4a."
+      },
+      {
+        "id": "technical-documentation",
+        "title": "Technical documentation",
+        "detail": "Draw up technical documentation before placing on the market or putting into service and keep it up to date; it must show compliance and contain at least the elements of Annex IV. SMEs, including start-ups, and small mid-cap enterprises (SMCs) may use the Commission's simplified form.",
+        "ref": "art-11-1",
+        "amended": "The simplified form now also covers SMCs."
+      },
+      {
+        "id": "record-keeping",
+        "title": "Automatic logging",
+        "detail": "The system must technically allow the automatic recording of events (logs) over its lifetime, so that its functioning can be traced.",
+        "ref": "art-12-1"
+      },
+      {
+        "id": "transparency-to-deployers",
+        "title": "Transparency and instructions for use",
+        "detail": "Design the system so that deployers can interpret its output and use it appropriately, and supply instructions for use with concise, complete, correct and clear information, including its intended purpose, accuracy, limitations and human oversight measures.",
+        "ref": "art-13"
+      },
+      {
+        "id": "human-oversight",
+        "title": "Human oversight",
+        "detail": "Design and develop the system, including with suitable human-machine interface tools, so that natural persons can effectively oversee it while it is in use, with measures commensurate with its risks, autonomy and context of use.",
+        "ref": "art-14"
+      },
+      {
+        "id": "accuracy-robustness-cybersecurity",
+        "title": "Accuracy, robustness and cybersecurity",
+        "detail": "The system must achieve an appropriate level of accuracy, robustness and cybersecurity and perform consistently in those respects throughout its lifecycle; the accuracy levels and metrics must be declared in the instructions for use.",
+        "ref": "art-15"
+      },
+      {
+        "id": "provider-obligations",
+        "title": "Provider obligations overall",
+        "detail": "Article 16 lists the provider's duties: comply with Section 2, show name and contact address on the system or its packaging or documentation, have a quality management system, keep documentation and logs, run the conformity assessment, draw up the EU declaration, affix the CE marking, register, take corrective action, demonstrate conformity on request, and meet the accessibility requirements of Directives (EU) 2016/2102 and (EU) 2019/882.",
+        "ref": "art-16"
+      },
+      {
+        "id": "quality-management",
+        "title": "Quality management system",
+        "detail": "Put in place a documented quality management system (written policies, procedures and instructions) that ensures compliance, covering among others regulatory compliance strategy, design and development controls, testing, data management, risk management, post-market monitoring and incident reporting. It must be proportionate to the size of the provider, in particular for SMEs and SMCs, without lowering the rigour required (Article 17(2)).",
+        "ref": "art-17-1"
+      },
+      {
+        "id": "documentation-keeping",
+        "title": "Keep documentation for 10 years",
+        "detail": "Keep the technical documentation, the quality management documentation, notified body decisions and the EU declaration of conformity at the disposal of national authorities for 10 years after the system is placed on the market or put into service.",
+        "ref": "art-18-1"
+      },
+      {
+        "id": "keep-logs",
+        "title": "Keep the logs",
+        "detail": "Keep the automatically generated logs that are under the provider's control for a period suited to the intended purpose, of at least six months unless other Union or national law provides otherwise.",
+        "ref": "art-19-1"
+      },
+      {
+        "id": "corrective-actions",
+        "title": "Corrective actions and duty of information",
+        "detail": "If the system is not in conformity, immediately bring it into conformity, withdraw, disable or recall it, and inform distributors and, where applicable, deployers, the authorised representative and importers.",
+        "ref": "art-20-1"
+      },
+      {
+        "id": "cooperation",
+        "title": "Cooperate with authorities",
+        "detail": "On a reasoned request of a competent authority, provide all information and documentation needed to demonstrate conformity, and access to the logs under the provider's control.",
+        "ref": "art-21"
+      },
+      {
+        "id": "authorised-representative",
+        "title": "Authorised representative in the EU",
+        "detail": "Providers established outside the EU must, by written mandate, appoint an authorised representative established in the EU before making the system available on the EU market.",
+        "ref": "art-22-1",
+        "condition": "Only for providers established in a third country."
+      },
+      {
+        "id": "conformity-assessment",
+        "title": "Conformity assessment",
+        "detail": "Have the system undergo the relevant conformity assessment procedure before placing it on the market or putting it into service. Annex III points 2 to 8: internal control (Annex VI). Annex III point 1 (biometrics): internal control or Annex VII only where the provider has applied harmonised standards or common specifications; otherwise the notified body procedure of Annex VII (Article 43(1)). Annex I Section A products: the procedure of the sectoral legislation, which then also covers the Section 2 requirements and the quality management system (Article 43(3)).",
+        "ref": "art-43",
+        "amended": "For Annex I products, including an AI safety component does not by itself require a third-party procedure."
+      },
+      {
+        "id": "eu-declaration",
+        "title": "EU declaration of conformity",
+        "detail": "Draw up a written, machine-readable, physical or electronically signed EU declaration of conformity for each high-risk system and keep it at the disposal of national authorities for 10 years.",
+        "ref": "art-47-1"
+      },
+      {
+        "id": "ce-marking",
+        "title": "CE marking",
+        "detail": "Affix the CE marking visibly, legibly and indelibly, or on the packaging or documentation where that is not possible; a digital CE marking is used for systems provided digitally.",
+        "ref": "art-48"
+      },
+      {
+        "id": "registration",
+        "title": "Register in the EU database",
+        "detail": "Before placing on the market or putting into service a high-risk system listed in Annex III, the provider or its authorised representative registers itself and the system in the EU database of Article 71 (Article 49(1)). Systems under Annex III point 2 (critical infrastructure) are registered at national level instead (Article 49(5)).",
+        "ref": "art-49-1",
+        "condition": "Annex III systems; point 2 systems at national level."
+      },
+      {
+        "id": "post-market-monitoring",
+        "title": "Post-market monitoring",
+        "detail": "Establish and document a post-market monitoring system, proportionate to the risks, that actively and systematically collects and analyzes data on the system's performance throughout its lifetime, based on a post-market monitoring plan that is part of the technical documentation (Article 72(1) to (3)).",
+        "ref": "art-72"
+      },
+      {
+        "id": "serious-incidents",
+        "title": "Report serious incidents",
+        "detail": "Report any serious incident to the market surveillance authorities of the Member States where it occurred, immediately after establishing a causal link or its reasonable likelihood and no later than 15 days after becoming aware of it (two days for widespread infringements or critical infrastructure, ten days in case of death).",
+        "ref": "art-73"
+      },
+      {
+        "id": "ai-literacy",
+        "title": "AI literacy of staff",
+        "detail": "Providers and deployers of AI systems must take measures to support the development of AI literacy of their staff and of other persons dealing with the operation and use of AI systems on their behalf, taking into account their knowledge, experience, education and training, the context of use and the persons affected. No specific level of AI literacy of any individual has to be guaranteed.",
+        "ref": "art-4-1",
+        "amended": "Now a duty to support AI literacy; no specific level is required of any individual."
+      }
+    ],
+    "deployer": [
+      {
+        "id": "deployer-becomes-provider",
+        "title": "When a deployer becomes the provider",
+        "detail": "A deployer (or distributor, importer or other third party) is considered the provider of a high-risk system, with all Article 16 duties, if it puts its name or trademark on it, makes a substantial modification so that it remains high-risk, or changes the intended purpose of a system that was not high-risk so that it becomes high-risk.",
+        "ref": "art-25-1",
+        "condition": "Only in the three cases of Article 25(1), points (a) to (c)."
+      },
+      {
+        "id": "use-per-instructions",
+        "title": "Use according to the instructions",
+        "detail": "Take appropriate technical and organizational measures to use the high-risk system in accordance with the provider's instructions for use.",
+        "ref": "art-26-1"
+      },
+      {
+        "id": "assign-human-oversight",
+        "title": "Assign human oversight",
+        "detail": "Assign human oversight to natural persons who have the necessary competence, training and authority, as well as the necessary support.",
+        "ref": "art-26-2"
+      },
+      {
+        "id": "input-data",
+        "title": "Relevant input data",
+        "detail": "To the extent the deployer controls the input data, ensure it is relevant and sufficiently representative for the intended purpose.",
+        "ref": "art-26-4"
+      },
+      {
+        "id": "monitor-and-report",
+        "title": "Monitor and report risks and incidents",
+        "detail": "Monitor the operation of the system on the basis of the instructions for use; where it presents a risk, inform the provider or distributor and the market surveillance authority and suspend use; report serious incidents first to the provider.",
+        "ref": "art-26-5"
+      },
+      {
+        "id": "deployer-keep-logs",
+        "title": "Keep the logs",
+        "detail": "Keep the logs automatically generated by the system, to the extent they are under the deployer's control, for a period suited to the intended purpose, of at least six months unless other law provides otherwise.",
+        "ref": "art-26-6"
+      },
+      {
+        "id": "inform-workers",
+        "title": "Inform workers",
+        "detail": "Employers must inform workers' representatives and the affected workers before putting into service or using a high-risk system at the workplace.",
+        "ref": "art-26-7",
+        "condition": "Deployers who are employers using the system at the workplace."
+      },
+      {
+        "id": "public-registration",
+        "title": "Registration by public deployers",
+        "detail": "Public authorities and Union institutions, bodies, offices or agencies must comply with the registration obligations of Article 49 and must not use a high-risk system that is not registered in the EU database.",
+        "ref": "art-26-8",
+        "condition": "Deployers that are public authorities or Union institutions, bodies, offices or agencies."
+      },
+      {
+        "id": "dpia",
+        "title": "Data protection impact assessment",
+        "detail": "Where applicable, use the information the provider gives under Article 13 to carry out a data protection impact assessment under Article 35 of Regulation (EU) 2016/679 or Article 27 of Directive (EU) 2016/680.",
+        "ref": "art-26-9"
+      },
+      {
+        "id": "post-remote-rbi-authorization",
+        "title": "Authorization for post-remote biometric identification",
+        "detail": "In an investigation for the targeted search of a person suspected or convicted of a criminal offence, the deployer of a post-remote biometric identification system must request authorization from a judicial or binding administrative authority, ex ante or without undue delay and no later than 48 hours, except for the initial identification of a potential suspect based on objective and verifiable facts; each use is limited to what is strictly necessary and untargeted use is not allowed.",
+        "ref": "art-26-10",
+        "condition": "Law enforcement deployers of post-remote biometric identification systems."
+      },
+      {
+        "id": "inform-affected-persons",
+        "title": "Inform affected persons",
+        "detail": "Deployers of Annex III high-risk systems that make or assist in making decisions about natural persons must inform those persons that they are subject to the use of the system.",
+        "ref": "art-26-11",
+        "condition": "Annex III systems that make or assist decisions about natural persons."
+      },
+      {
+        "id": "cooperate-authorities",
+        "title": "Cooperate with authorities",
+        "detail": "Cooperate with the relevant competent authorities in any action they take in relation to the high-risk system.",
+        "ref": "art-26-12"
+      },
+      {
+        "id": "fundamental-rights-impact-assessment",
+        "title": "Fundamental rights impact assessment",
+        "detail": "Before first use, bodies governed by public law, private entities providing public services, and deployers of credit scoring (Annex III point 5(b)) or life and health insurance pricing (point 5(c)) systems must assess the impact on fundamental rights and notify the market surveillance authority of the results. Parts already covered by a data protection impact assessment may be cross-referenced (Article 27(4)).",
+        "ref": "art-27-1",
+        "condition": "Annex III systems except point 2, for public bodies, private entities providing public services, and deployers of Annex III points 5(b) and 5(c).",
+        "amended": "The assessment may now cross-reference the data protection impact assessment."
+      },
+      {
+        "id": "right-to-explanation",
+        "title": "Explain individual decisions",
+        "detail": "A person subject to a decision taken by the deployer on the basis of the output of an Annex III high-risk system (except point 2) that produces legal effects or similarly significantly affects them in a way they consider to have an adverse impact on their health, safety or fundamental rights has the right to a clear and meaningful explanation of the role of the AI system and the main elements of the decision. It does not apply where Union or national law provides exceptions or restrictions (Article 86(2)), or where the right is already provided under other Union law (Article 86(3)).",
+        "ref": "art-86-1",
+        "condition": "Annex III systems except point 2, for decisions with legal or similarly significant effects."
+      },
+      {
+        "id": "ai-literacy",
+        "title": "AI literacy of staff",
+        "detail": "Providers and deployers of AI systems must take measures to support the development of AI literacy of their staff and of other persons dealing with the operation and use of AI systems on their behalf, taking into account their knowledge, experience, education and training, the context of use and the persons affected. No specific level of AI literacy of any individual has to be guaranteed.",
+        "ref": "art-4-1",
+        "amended": "Now a duty to support AI literacy; no specific level is required of any individual."
+      }
+    ]
+  },
+  "high_annex_i_b": {
+    "provider": [
+      {
+        "id": "section-b-limited-application",
+        "title": "Only a few AI Act provisions apply",
+        "detail": "The system is high-risk under Article 6(1) because it is a product or a safety component of a product covered by an act in Annex I Section B. Article 2(2): for such systems 'only Article 6(1), Article 60a and Articles 102 to 112 shall apply'; Articles 57, 58 and 59 (sandboxes) apply only in so far as the high-risk requirements have been integrated in that sectoral act. On this wording the requirements and obligations of Articles 8 to 49, and also Articles 4 and 50, do not apply to it directly.",
+        "ref": "art-2-2",
+        "condition": "Annex I Section B covers the Union acts on civil aviation security, two- or three-wheel and quadricycle vehicles, agricultural and forestry vehicles, marine equipment, rail interoperability, motor vehicles and their general safety, civil aviation and unmanned aircraft, and machinery (Regulation (EU) 2023/1230)."
+      },
+      {
+        "id": "section-b-sectoral-requirements",
+        "title": "Requirements come through the sectoral act",
+        "detail": "Articles 102 to 109 amend the Section B acts so that the Commission takes the Chapter III, Section 2 requirements into account when it adopts delegated or implementing acts under them; for machinery, Regulation (EU) 2026/1744 requires delegated acts that add those requirements and Articles 17, 19, 72 and 73 to Regulation (EU) 2023/1230. The product's own conformity assessment or type-approval under the sectoral act is where compliance is shown.",
+        "ref": "rec-49"
+      },
+      {
+        "id": "section-b-real-world-testing",
+        "title": "Real-world testing under a national framework",
+        "detail": "Member States may allow providers of AI-enabled products covered by Section B to test high-risk AI systems in real-world conditions outside AI regulatory sandboxes, to assess conformity with Articles 8 to 15, under a national real-world testing framework with a testing plan agreed with the national competent authority.",
+        "ref": "art-60a-1",
+        "condition": "Only where a Member State has adopted such a framework."
+      }
+    ],
+    "deployer": [
+      {
+        "id": "section-b-no-deployer-duties",
+        "title": "No AI Act deployer duties",
+        "detail": "Article 2(2) limits the AI Act provisions that apply to Section B systems to Article 6(1), Article 60a and Articles 102 to 112, so the deployer duties of Articles 26, 27 and 86 do not apply; the use of the product is governed by the sectoral act.",
+        "ref": "art-2-2",
+        "condition": "Annex I Section B covers the Union acts on civil aviation security, two- or three-wheel and quadricycle vehicles, agricultural and forestry vehicles, marine equipment, rail interoperability, motor vehicles and their general safety, civil aviation and unmanned aircraft, and machinery (Regulation (EU) 2023/1230)."
+      }
+    ]
+  },
+  "limited": {
+    "provider": [
+      {
+        "id": "disclose-ai-interaction",
+        "title": "Tell people they are talking to an AI",
+        "detail": "AI systems intended to interact directly with natural persons must be designed so that those persons are informed they are interacting with an AI system, unless this is obvious to a reasonably well-informed, observant and circumspect person.",
+        "ref": "art-50-1",
+        "condition": "Systems that interact directly with natural persons."
+      },
+      {
+        "id": "mark-synthetic-content",
+        "title": "Mark generated content as AI-generated",
+        "detail": "Providers of AI systems, including general-purpose AI systems, that generate synthetic audio, image, video or text must ensure the outputs are marked in a machine-readable format and detectable as artificially generated or manipulated. This does not apply to assistive functions for standard editing or where the input is not substantially altered.",
+        "ref": "art-50-2",
+        "condition": "Systems that generate synthetic audio, image, video or text."
+      },
+      {
+        "id": "prevent-prohibited-content",
+        "title": "Safeguards against prohibited sexual content",
+        "detail": "A system that generates realistic images, video or audio falls under the Article 5(1)(ba) and (bb) bans if non-consensual intimate imagery of an identifiable person or child sexual abuse material is a reasonably foreseeable and reproducible outcome without requiring significant technical modification, unless it has reasonable and adequate technical safety measures and other safeguards to reliably prevent that generation, taking into account reasonably foreseeable misuse, and to correct observed or reported misuse. These points apply from the later date that Article 113, point (a), sets for them.",
+        "ref": "art-5-1a",
+        "condition": "Systems that generate realistic images, video, audio or similar material of people.",
+        "amended": "New with paragraph 1a of Article 5."
+      },
+      {
+        "id": "timing-of-information",
+        "title": "Clear information at first contact",
+        "detail": "The information required by Article 50(1) to (4) must be given in a clear and distinguishable manner at the latest at the time of the first interaction or exposure, and must meet the applicable accessibility requirements.",
+        "ref": "art-50-5"
+      },
+      {
+        "id": "exemption-documentation",
+        "title": "Document and register an Article 6(3) assessment",
+        "detail": "A provider who considers that a system listed in Annex III is not high-risk must document that assessment before placing it on the market or putting it into service, register it in the EU database under Article 49(2), and provide the documentation to national authorities on request.",
+        "ref": "art-6-4",
+        "condition": "Only if the system falls under Annex III and the provider relies on the Article 6(3) exemption. The text leaves open from when this applies: Article 6 follows the Annex III date of Article 113, point (c), Article 49 the general date."
+      },
+      {
+        "id": "ai-literacy",
+        "title": "AI literacy of staff",
+        "detail": "Providers and deployers of AI systems must take measures to support the development of AI literacy of their staff and of other persons dealing with the operation and use of AI systems on their behalf, taking into account their knowledge, experience, education and training, the context of use and the persons affected. No specific level of AI literacy of any individual has to be guaranteed.",
+        "ref": "art-4-1",
+        "amended": "Now a duty to support AI literacy; no specific level is required of any individual."
+      }
+    ],
+    "deployer": [
+      {
+        "id": "inform-emotion-biometric",
+        "title": "Inform people exposed to emotion recognition or biometric categorisation",
+        "detail": "Deployers of an emotion recognition system or a biometric categorisation system must inform the natural persons exposed to it of its operation and process personal data under the GDPR and related law.",
+        "ref": "art-50-3",
+        "condition": "Emotion recognition or biometric categorisation systems (these are usually also high-risk under Annex III point 1)."
+      },
+      {
+        "id": "disclose-deep-fake",
+        "title": "Disclose deep fakes",
+        "detail": "Deployers of an AI system that generates or manipulates image, audio or video content constituting a deep fake must disclose that the content has been artificially generated or manipulated. For evidently artistic, creative, satirical or fictional works, disclosure is limited to the existence of such content in a way that does not hamper the work.",
+        "ref": "art-50-4",
+        "condition": "Image, audio or video deep fakes."
+      },
+      {
+        "id": "disclose-generated-text",
+        "title": "Disclose AI-generated text on matters of public interest",
+        "detail": "Deployers of an AI system that generates or manipulates text published to inform the public on matters of public interest must disclose that the text was artificially generated or manipulated, unless it has undergone human review or editorial control and someone holds editorial responsibility.",
+        "ref": "art-50-4",
+        "condition": "Text published to inform the public on matters of public interest."
+      },
+      {
+        "id": "timing-of-information",
+        "title": "Clear information at first contact",
+        "detail": "The information required by Article 50(1) to (4) must be given in a clear and distinguishable manner at the latest at the time of the first interaction or exposure, and must meet the applicable accessibility requirements.",
+        "ref": "art-50-5"
+      },
+      {
+        "id": "ai-literacy",
+        "title": "AI literacy of staff",
+        "detail": "Providers and deployers of AI systems must take measures to support the development of AI literacy of their staff and of other persons dealing with the operation and use of AI systems on their behalf, taking into account their knowledge, experience, education and training, the context of use and the persons affected. No specific level of AI literacy of any individual has to be guaranteed.",
+        "ref": "art-4-1",
+        "amended": "Now a duty to support AI literacy; no specific level is required of any individual."
+      }
+    ]
+  },
+  "minimal": {
+    "provider": [
+      {
+        "id": "ai-literacy",
+        "title": "AI literacy of staff",
+        "detail": "Article 4(1) applies to every provider and deployer of an AI system to which the Act applies, whatever its risk class: they must take measures to support the development of AI literacy of their staff and of other persons dealing with the operation and use of AI systems on their behalf, taking into account their knowledge, experience, education and training, the context of use and the persons affected. No specific level of AI literacy of any individual has to be guaranteed.",
+        "ref": "art-4-1",
+        "amended": "Now a duty to support AI literacy; no specific level is required of any individual."
+      },
+      {
+        "id": "voluntary-codes",
+        "title": "Voluntary codes of conduct",
+        "detail": "There are no mandatory requirements for minimal-risk systems. The AI Office and the Member States encourage codes of conduct for the voluntary application of some or all of the high-risk requirements, and of other elements such as ethical guidelines, environmental sustainability and AI literacy, including by deployers (Article 95(2)).",
+        "ref": "art-95"
+      },
+      {
+        "id": "exemption-documentation",
+        "title": "Document and register an Article 6(3) assessment",
+        "detail": "A provider who considers that a system listed in Annex III is not high-risk must document that assessment before placing it on the market or putting it into service, register it in the EU database under Article 49(2), and provide the documentation to national authorities on request.",
+        "ref": "art-6-4",
+        "condition": "Only if the system falls under Annex III and the provider relies on the Article 6(3) exemption. The text leaves open from when this applies: Article 6 follows the Annex III date of Article 113, point (c), Article 49 the general date."
+      }
+    ],
+    "deployer": [
+      {
+        "id": "ai-literacy",
+        "title": "AI literacy of staff",
+        "detail": "Article 4(1) applies to every provider and deployer of an AI system to which the Act applies, whatever its risk class: they must take measures to support the development of AI literacy of their staff and of other persons dealing with the operation and use of AI systems on their behalf, taking into account their knowledge, experience, education and training, the context of use and the persons affected. No specific level of AI literacy of any individual has to be guaranteed.",
+        "ref": "art-4-1",
+        "amended": "Now a duty to support AI literacy; no specific level is required of any individual."
+      },
+      {
+        "id": "voluntary-codes",
+        "title": "Voluntary codes of conduct",
+        "detail": "There are no mandatory requirements for minimal-risk systems. The AI Office and the Member States encourage codes of conduct for the voluntary application of some or all of the high-risk requirements, and of other elements such as ethical guidelines, environmental sustainability and AI literacy, including by deployers (Article 95(2)).",
+        "ref": "art-95"
+      }
+    ]
+  },
+  "gpai": {
+    "provider": [
+      {
+        "id": "gpai-technical-documentation",
+        "title": "Technical documentation of the model",
+        "detail": "Draw up and keep up to date the technical documentation of the model, including its training and testing process and evaluation results, with at least the information in Annex XI, to provide it on request to the AI Office and national authorities. Not required for free and open-source models with public weights unless the model has systemic risk. Recital 103 says AI components provided against a price or otherwise monetised should not benefit from the free and open-source exceptions; the Commission guidelines on general-purpose AI models treat paid services that are optional and leave free access to the model intact as not monetisation.",
+        "ref": "art-53-1",
+        "condition": "Not required for models released under a free and open-source licence with public weights, architecture and usage information, unless the model has systemic risk (Article 53(2)) or is monetised (recital 103)."
+      },
+      {
+        "id": "gpai-downstream-information",
+        "title": "Information for downstream providers",
+        "detail": "Draw up, keep up to date and make available to providers who integrate the model the information and documentation they need to understand its capabilities and limitations and to comply with their own obligations, with at least the elements in Annex XII. Not required for free and open-source models with public weights unless the model has systemic risk. Recital 103 says AI components provided against a price or otherwise monetised should not benefit from the free and open-source exceptions; the Commission guidelines on general-purpose AI models treat paid services that are optional and leave free access to the model intact as not monetisation.",
+        "ref": "art-53-1",
+        "condition": "Not required for models released under a free and open-source licence with public weights, architecture and usage information, unless the model has systemic risk (Article 53(2)) or is monetised (recital 103)."
+      },
+      {
+        "id": "gpai-copyright-policy",
+        "title": "Copyright policy",
+        "detail": "Put in place a policy to comply with Union copyright law, in particular to identify and comply with a reservation of rights (text and data mining opt-out) under Article 4(3) of Directive (EU) 2019/790.",
+        "ref": "art-53-1"
+      },
+      {
+        "id": "gpai-training-summary",
+        "title": "Public summary of training content",
+        "detail": "Draw up and make publicly available a sufficiently detailed summary of the content used to train the model, using the template provided by the AI Office.",
+        "ref": "art-53-1"
+      },
+      {
+        "id": "gpai-cooperation",
+        "title": "Cooperate with the Commission",
+        "detail": "Cooperate as necessary with the Commission and the national competent authorities in the exercise of their competences and powers under the Regulation.",
+        "ref": "art-53-3"
+      },
+      {
+        "id": "gpai-codes-of-practice",
+        "title": "Codes of practice or other proof of compliance",
+        "detail": "Until a harmonised standard is published, providers may rely on codes of practice under Article 56 to demonstrate compliance with Article 53(1); providers that neither adhere to an approved code nor comply with a harmonised standard must demonstrate alternative adequate means of compliance for assessment by the Commission.",
+        "ref": "art-53-4"
+      },
+      {
+        "id": "gpai-authorised-representative",
+        "title": "Authorised representative in the EU",
+        "detail": "Providers established outside the EU must, by written mandate, appoint an authorised representative established in the EU before placing the model on the EU market.",
+        "ref": "art-54-1",
+        "condition": "Providers established in a third country; not required for free and open-source models with public weights unless the model has systemic risk (Article 54(6))."
+      },
+      {
+        "id": "gpai-systemic-notification",
+        "title": "Notify the Commission of systemic risk",
+        "detail": "A model is presumed to have high-impact capabilities when its cumulative training compute is greater than 10^25 floating point operations. The provider must notify the Commission without delay and in any event within two weeks after the condition is met or it becomes known that it will be met.",
+        "ref": "art-52-1",
+        "condition": "Models that meet the systemic risk condition of Article 51(1)(a)."
+      },
+      {
+        "id": "gpai-systemic-evaluation",
+        "title": "Model evaluation and adversarial testing",
+        "detail": "For models with systemic risk only: perform model evaluation with standardized, state-of-the-art protocols and tools, including conducting and documenting adversarial testing to identify and mitigate systemic risks.",
+        "ref": "art-55-1",
+        "condition": "Only general-purpose AI models with systemic risk (Article 51)."
+      },
+      {
+        "id": "gpai-systemic-risk-mitigation",
+        "title": "Assess and mitigate systemic risks",
+        "detail": "For models with systemic risk only: assess and mitigate possible systemic risks at Union level, including their sources, that may stem from the development, placing on the market or use of the model.",
+        "ref": "art-55-1",
+        "condition": "Only general-purpose AI models with systemic risk (Article 51)."
+      },
+      {
+        "id": "gpai-systemic-incidents",
+        "title": "Track and report serious incidents",
+        "detail": "For models with systemic risk only: keep track of, document and report without undue delay to the AI Office and, as appropriate, national authorities, relevant information about serious incidents and possible corrective measures.",
+        "ref": "art-55-1",
+        "condition": "Only general-purpose AI models with systemic risk (Article 51)."
+      },
+      {
+        "id": "gpai-systemic-cybersecurity",
+        "title": "Cybersecurity of the model",
+        "detail": "For models with systemic risk only: ensure an adequate level of cybersecurity protection for the model and its physical infrastructure.",
+        "ref": "art-55-1",
+        "condition": "Only general-purpose AI models with systemic risk (Article 51)."
+      }
+    ]
+  },
+  "not_covered": {
+    "provider": [],
+    "deployer": []
+  }
+}

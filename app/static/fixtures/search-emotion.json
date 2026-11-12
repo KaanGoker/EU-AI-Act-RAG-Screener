@@ -1,0 +1,115 @@
+{
+ "query": "emotion recognition",
+ "hits": [
+  {
+   "ref": "rec-18",
+   "unit_id": "rec-18",
+   "kind": "recital",
+   "label": "Recital 18",
+   "title": null,
+   "snippet": "The notion of ‘emotion recognition system’ referred to in this Regulation should be defined as an AI system for the purpose of identifying or inferring emotions or intentions of natural persons on the basis of their biometric data. The notion refers to emotions or intentions such as happiness, sadness, anger, ...",
+   "page": 5,
+   "page_url": "https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=OJ:L_202401689#page=5",
+   "score": 0.048916
+  },
+  {
+   "ref": "art-3-39",
+   "unit_id": "art-3",
+   "kind": "article",
+   "label": "Article 3(39)",
+   "title": "Definitions",
+   "snippet": "‘emotion recognition system’ means an AI system for the purpose of identifying or inferring emotions or intentions of natural persons on the basis of their biometric data;",
+   "page": 8,
+   "page_url": "https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:02024R1689-20260727#page=8",
+   "score": 0.048139
+  },
+  {
+   "ref": "rec-14",
+   "unit_id": "rec-14",
+   "kind": "recital",
+   "label": "Recital 14",
+   "title": null,
+   "snippet": "The notion of ‘biometric data’ used in this Regulation should be interpreted in light of the notion of biometric data as defined in Article 4, point (14) of Regulation (EU) 2016/679, Article 3, point (18) of Regulation (EU) 2018/1725 and Article 3, point (13) of Directive (EU) 2016/680. Biometric data can allow for ...",
+   "page": 4,
+   "page_url": "https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=OJ:L_202401689#page=4",
+   "score": 0.046394
+  },
+  {
+   "ref": "art-50-3",
+   "unit_id": "art-50",
+   "kind": "article",
+   "label": "Article 50(3)",
+   "title": "Transparency obligations for providers and deployers of certain AI systems",
+   "snippet": "Deployers of an emotion recognition system or a biometric categorisation system shall inform the natural persons exposed thereto of the operation of the system, and shall process the personal data in accordance with Regulations (EU) 2016/679 and (EU) 2018/1725 and Directive (EU) 2016/680, as applicable. This ...",
+   "page": 59,
+   "page_url": "https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:02024R1689-20260727#page=59",
+   "score": 0.046176
+  },
+  {
+   "ref": "rec-44",
+   "unit_id": "rec-44",
+   "kind": "recital",
+   "label": "Recital 44",
+   "title": null,
+   "snippet": "There are serious concerns about the scientific basis of AI systems aiming to identify or infer emotions, particularly as expression of emotions vary considerably across cultures and situations, and even within a single individual. Among the key shortcomings of such systems are the limited reliability, the lack of ...",
+   "page": 12,
+   "page_url": "https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=OJ:L_202401689#page=12",
+   "score": 0.045743
+  },
+  {
+   "ref": "rec-54",
+   "unit_id": "rec-54",
+   "kind": "recital",
+   "label": "Recital 54",
+   "title": null,
+   "snippet": "In addition, AI systems intended to be used for biometric categorisation according to sensitive attributes or characteristics protected under Article 9(1) of Regulation (EU) 2016/679 on the basis of biometric data, in so far as these are not prohibited under this Regulation, and emotion recognition systems that are ...",
+   "page": 15,
+   "page_url": "https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=OJ:L_202401689#page=15",
+   "score": 0.044796
+  },
+  {
+   "ref": "art-5-1",
+   "unit_id": "art-5",
+   "kind": "article",
+   "label": "Article 5(1)",
+   "title": "Prohibited AI practices",
+   "snippet": "(e) the placing on the market, the putting into service for this specific purpose, or the use of AI systems that create or expand facial recognition databases through the untargeted scraping of facial images from the internet or CCTV footage; (f) the placing on the market, the putting into service for this specific ...",
+   "page": 13,
+   "page_url": "https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:02024R1689-20260727#page=13",
+   "score": 0.043321
+  },
+  {
+   "ref": "annex-III-1",
+   "unit_id": "annex-III",
+   "kind": "annex",
+   "label": "Annex III, point 1",
+   "title": "High-risk AI systems referred to in Article 6(2)",
+   "snippet": "Biometrics, in so far as their use is permitted under relevant Union or national law: (a) remote biometric identification systems. This shall not include AI systems intended to be used for biometric verification the sole purpose of which is to confirm that a specific natural person is the person he or she claims to ...",
+   "page": 131,
+   "page_url": "https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:02024R1689-20260727#page=131",
+   "score": 0.043277
+  },
+  {
+   "ref": "rec-15",
+   "unit_id": "rec-15",
+   "kind": "recital",
+   "label": "Recital 15",
+   "title": null,
+   "snippet": "The notion of ‘biometric identification’ referred to in this Regulation should be defined as the automated recognition of physical, physiological and behavioural human features such as the face, eye movement, body shape, voice, prosody, gait, posture, heart rate, blood pressure, odour, keystrokes characteristics, for ...",
+   "page": 4,
+   "page_url": "https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=OJ:L_202401689#page=4",
+   "score": 0.042838
+  },
+  {
+   "ref": "annex-XIV-2",
+   "unit_id": "annex-XIV",
+   "kind": "annex",
+   "label": "Annex XIV, point 2",
+   "title": "The list of codes, categories and corresponding types of AI systems for the purpose of the notification procedure referred to in Article 30 specifying the scope of the designation as notified bodies",
+   "snippet": "AIP 0111 AI systems subject to point 11 of Section A of Annex I AIP 0112 AI systems subject to point 12 of Section A of Annex I b. AI systems subject to point 1 of Annex III AIA Code AIB 0201 Remote biometric identification systems AIB 0202 Biometric categorisation AI systems AIB 0203 Emotion recognition AI systems",
+   "page": 150,
+   "page_url": "https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:02024R1689-20260727#page=150",
+   "score": 0.042323
+  }
+ ]
+}

@@ -1,0 +1,78 @@
+{
+ "id": "0a2b4c6d-8e0f-4a1b-9c3d-5e7f9a1b3c50",
+ "created": "2026-11-11T20:00:00Z",
+ "model": "gemini-fixture",
+ "version": "1.0.0",
+ "in_scope": false,
+ "refusal": "This text does not describe an AI system, so there is nothing to screen. Describe what the system does, who uses it and what it decides, and try again.",
+ "language": "en",
+ "role": "provider",
+ "gpai": {
+  "applies": false,
+  "note": null
+ },
+ "obligations": [],
+ "open_questions": [],
+ "disclaimer": "Draft assessment only. Not legal advice. Quotes are checked against the consolidated text of the AI Act of 27 July 2026, published by EUR-Lex. A consolidated text is a documentation tool without legal effect; the authentic text is the one published in the Official Journal of the European Union. Recitals are quoted from the Official Journal version of 2024. The model can be wrong or overly certain. Verify against the cited text and consult a qualified professional before you make decisions.",
+ "summary": "",
+ "risk_class": "unclear",
+ "confidence": "low",
+ "headline": "",
+ "steps": [
+  {
+   "id": "scope",
+   "title": "Scope",
+   "question": "Is this an AI system that falls under the Act?",
+   "outcome": "not_applicable",
+   "reasoning": "",
+   "citations": []
+  },
+  {
+   "id": "prohibited",
+   "title": "Prohibited practices",
+   "question": "Is it a prohibited AI practice under Article 5?",
+   "outcome": "not_applicable",
+   "reasoning": "",
+   "citations": []
+  },
+  {
+   "id": "high_risk",
+   "title": "High-risk classification",
+   "question": "Is it high-risk under Article 6(1) with Annex I or Article 6(2) with Annex III?",
+   "outcome": "not_applicable",
+   "reasoning": "",
+   "citations": []
+  },
+  {
+   "id": "exemption",
+   "title": "Article 6(3) exemption",
+   "question": "Does the Article 6(3) exemption take it out of the high-risk class?",
+   "outcome": "not_applicable",
+   "reasoning": "",
+   "citations": []
+  },
+  {
+   "id": "transparency",
+   "title": "Transparency duties",
+   "question": "Do the Article 50 transparency obligations apply?",
+   "outcome": "not_applicable",
+   "reasoning": "",
+   "citations": []
+  },
+  {
+   "id": "gpai",
+   "title": "General-purpose AI",
+   "question": "Is a general-purpose AI model provided, with Chapter V obligations?",
+   "outcome": "not_applicable",
+   "reasoning": "",
+   "citations": []
+  }
+ ],
+ "deadlines": [],
+ "high_risk_basis": "none",
+ "verification": {
+  "total": 0,
+  "verified": 0
+ },
+ "sources": []
+}

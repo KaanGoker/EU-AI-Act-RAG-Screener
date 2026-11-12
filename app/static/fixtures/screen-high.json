@@ -1,0 +1,450 @@
+{
+ "id": "8b0c2f0e-6a52-4b8e-9d0e-1f7c2a9b3d10",
+ "created": "2026-11-11T20:00:00Z",
+ "model": "gemini-fixture",
+ "version": "1.0.0",
+ "in_scope": true,
+ "refusal": null,
+ "language": "en",
+ "role": "provider",
+ "gpai": {
+  "applies": false,
+  "note": null
+ },
+ "obligations": [
+  {
+   "title": "Risk management system",
+   "detail": "Set up, document and maintain a risk management process for the whole lifecycle of the system.",
+   "who": "provider",
+   "citation": {
+    "ref": "art-9-1",
+    "label": "Article 9(1)",
+    "title": "Risk management system",
+    "quote": "A risk management system shall be established, implemented, documented and maintained in relation to high-risk AI systems.",
+    "verified": true,
+    "page": 21,
+    "page_url": "https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:02024R1689-20260727#page=21"
+   },
+   "id": "ob-0"
+  },
+  {
+   "title": "Data and data governance",
+   "detail": "Training, validation and test data must follow data governance practices fit for the purpose, including checks for bias.",
+   "who": "provider",
+   "citation": {
+    "ref": "art-10-2",
+    "label": "Article 10(2)",
+    "title": "Data and data governance",
+    "quote": "Training, validation and testing data sets shall be subject to data governance and management practices",
+    "verified": true,
+    "page": 23,
+    "page_url": "https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:02024R1689-20260727#page=23"
+   },
+   "id": "ob-1"
+  },
+  {
+   "title": "Technical documentation",
+   "detail": "Draw up the technical documentation before the system goes on the market and keep it up to date.",
+   "who": "provider",
+   "citation": {
+    "ref": "art-11-1",
+    "label": "Article 11(1)",
+    "title": "Technical documentation",
+    "quote": "The technical documentation of a high-risk AI system shall be drawn up before that system is placed on the market or put into service",
+    "verified": true,
+    "page": 24,
+    "page_url": "https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:02024R1689-20260727#page=24"
+   },
+   "id": "ob-2"
+  },
+  {
+   "title": "Record keeping",
+   "detail": "The system must log events automatically over its lifetime.",
+   "who": "provider",
+   "citation": {
+    "ref": "art-12-1",
+    "label": "Article 12(1)",
+    "title": "Record-keeping",
+    "quote": "High-risk AI systems shall technically allow for the automatic recording of events (logs) over the lifetime of the system.",
+    "verified": true,
+    "page": 24,
+    "page_url": "https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:02024R1689-20260727#page=24"
+   },
+   "id": "ob-3"
+  },
+  {
+   "title": "Human oversight by design",
+   "detail": "Build the system so recruiters can oversee it effectively while it is in use.",
+   "who": "provider",
+   "citation": {
+    "ref": "art-14-1",
+    "label": "Article 14(1)",
+    "title": "Human oversight",
+    "quote": "they can be effectively overseen by natural persons during the period in which they are in use",
+    "verified": true,
+    "page": 26,
+    "page_url": "https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:02024R1689-20260727#page=26"
+   },
+   "id": "ob-4"
+  },
+  {
+   "title": "Use as instructed",
+   "detail": "Use the system according to the provider's instructions for use.",
+   "who": "deployer",
+   "citation": {
+    "ref": "art-26-1",
+    "label": "Article 26(1)",
+    "title": "Obligations of deployers of high-risk AI systems",
+    "quote": "Deployers of high-risk AI systems shall take appropriate technical and organisational measures to ensure they use such systems in accordance with the instructions for use",
+    "verified": true,
+    "page": 37,
+    "page_url": "https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:02024R1689-20260727#page=37"
+   },
+   "id": "ob-5"
+  },
+  {
+   "title": "Assign human oversight",
+   "detail": "Give oversight to people with the competence, training and authority to do it.",
+   "who": "deployer",
+   "citation": {
+    "ref": "art-26-2",
+    "label": "Article 26(2)",
+    "title": "Obligations of deployers of high-risk AI systems",
+    "quote": "Deployers shall assign human oversight to natural persons who have the necessary competence, training and authority, as well as the necessary support.",
+    "verified": true,
+    "page": 37,
+    "page_url": "https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:02024R1689-20260727#page=37"
+   },
+   "id": "ob-6"
+  },
+  {
+   "title": "Keep the logs",
+   "detail": "Keep the logs the system generates for at least six months, where they are under your control.",
+   "who": "deployer",
+   "citation": {
+    "ref": "art-26-6",
+    "label": "Article 26(6)",
+    "title": "Obligations of deployers of high-risk AI systems",
+    "quote": "of at least six months",
+    "verified": true,
+    "page": 38,
+    "page_url": "https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:02024R1689-20260727#page=38"
+   },
+   "id": "ob-7"
+  },
+  {
+   "title": "AI literacy",
+   "detail": "Take measures that support the AI literacy of the staff who run the system.",
+   "who": "both",
+   "citation": {
+    "ref": "art-4-1",
+    "label": "Article 4(1)",
+    "title": "AI literacy",
+    "quote": "take measures to support the development of AI literacy of their staff",
+    "verified": true,
+    "page": 11,
+    "page_url": "https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:02024R1689-20260727#page=11"
+   },
+   "id": "ob-8"
+  }
+ ],
+ "open_questions": [
+  {
+   "question": "Does a recruiter review every ranking before a candidate is rejected?",
+   "why": "Human review does not remove the high-risk class, but it shapes how Article 14 and Article 26 are met."
+  },
+  {
+   "question": "Does the tool only sort applications by a fixed rule, such as the date received?",
+   "why": "A narrow procedural task could fall under the Article 6(3) exemption."
+  },
+  {
+   "question": "Are the applicants in the European Union?",
+   "why": "The Act applies when the output is used in the Union, even if the provider is outside it."
+  }
+ ],
+ "disclaimer": "Draft assessment only. Not legal advice. Quotes are checked against the consolidated text of the AI Act of 27 July 2026, published by EUR-Lex. A consolidated text is a documentation tool without legal effect; the authentic text is the one published in the Official Journal of the European Union. Recitals are quoted from the Official Journal version of 2024. The model can be wrong or overly certain. Verify against the cited text and consult a qualified professional before you make decisions.",
+ "summary": "A software service that reads job applications, ranks candidates against a vacancy and shows recruiters a shortlist of the top applicants.",
+ "risk_class": "high",
+ "confidence": "high",
+ "high_risk_basis": "annex_iii",
+ "headline": "Ranking job applicants is an Annex III employment use, so the system is high-risk under Article 6(2).",
+ "steps": [
+  {
+   "id": "scope",
+   "title": "Scope",
+   "question": "Is this an AI system that falls under the Act?",
+   "outcome": "yes",
+   "reasoning": "The tool infers from the applications it receives how to rank candidates, which fits the definition of an AI system. The provider places it on the Union market, so the Act applies.",
+   "citations": [
+    {
+     "ref": "art-3-1",
+     "label": "Article 3(1)",
+     "title": "Definitions",
+     "quote": "‘AI system’ means a machine-based system that is designed to operate with varying levels of autonomy",
+     "verified": true,
+     "page": 5,
+     "page_url": "https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:02024R1689-20260727#page=5"
+    },
+    {
+     "ref": "art-2-1",
+     "label": "Article 2(1)",
+     "title": "Scope",
+     "quote": "providers placing on the market or putting into service AI systems or placing on the market general-purpose AI models in the Union",
+     "verified": true,
+     "page": 2,
+     "page_url": "https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:02024R1689-20260727#page=2"
+    }
+   ]
+  },
+  {
+   "id": "prohibited",
+   "title": "Prohibited practices",
+   "question": "Is it a prohibited AI practice under Article 5?",
+   "outcome": "no",
+   "reasoning": "Nothing in the description points to manipulation, social scoring, emotion recognition at work or any other Article 5 practice.",
+   "citations": [
+    {
+     "ref": "art-5-1",
+     "label": "Article 5(1)",
+     "title": "Prohibited AI practices",
+     "quote": "the use of AI systems to infer emotions of a natural person in the areas of workplace and education institutions",
+     "verified": true,
+     "page": 13,
+     "page_url": "https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:02024R1689-20260727#page=13"
+    }
+   ]
+  },
+  {
+   "id": "high_risk",
+   "title": "High-risk classification",
+   "question": "Is it high-risk under Article 6(1) with Annex I or Article 6(2) with Annex III?",
+   "outcome": "yes",
+   "reasoning": "Filtering applications and evaluating candidates is listed word for word in Annex III, point 4(a). Article 6(2) makes every Annex III system high-risk unless the exemption applies.",
+   "citations": [
+    {
+     "ref": "art-6-2",
+     "label": "Article 6(2)",
+     "title": "Classification rules for high-risk AI systems",
+     "quote": "AI systems referred to in Annex III shall be considered to be high-risk.",
+     "verified": true,
+     "page": 18,
+     "page_url": "https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:02024R1689-20260727#page=18"
+    },
+    {
+     "ref": "annex-III-4",
+     "label": "Annex III, point 4",
+     "title": "High-risk AI systems referred to in Article 6(2)",
+     "quote": "to analyse and filter job applications, and to evaluate candidates",
+     "verified": true,
+     "page": 131,
+     "page_url": "https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:02024R1689-20260727#page=131"
+    }
+   ]
+  },
+  {
+   "id": "exemption",
+   "title": "Article 6(3) exemption",
+   "question": "Does the Article 6(3) exemption take it out of the high-risk class?",
+   "outcome": "no",
+   "reasoning": "The ranking shapes who gets an interview, so it materially influences the outcome of a decision. It is not a narrow procedural task. A system that profiles natural persons is always high-risk.",
+   "citations": [
+    {
+     "ref": "art-6-3",
+     "label": "Article 6(3)",
+     "title": "Classification rules for high-risk AI systems",
+     "quote": "including by not materially influencing the outcome of decision making",
+     "verified": true,
+     "page": 18,
+     "page_url": "https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:02024R1689-20260727#page=18"
+    },
+    {
+     "ref": "art-6-3",
+     "label": "Article 6(3)",
+     "title": "Classification rules for high-risk AI systems",
+     "quote": "an AI system referred to in Annex III shall always be considered high-risk where the AI system performs profiling of all natural persons",
+     "verified": false,
+     "page": 18,
+     "page_url": "https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:02024R1689-20260727#page=18"
+    }
+   ]
+  },
+  {
+   "id": "transparency",
+   "title": "Transparency duties",
+   "question": "Do the Article 50 transparency obligations apply?",
+   "outcome": "not_applicable",
+   "reasoning": "Candidates do not talk to the system and it does not generate synthetic content, so Article 50 adds no separate duty here.",
+   "citations": []
+  },
+  {
+   "id": "gpai",
+   "title": "General-purpose AI",
+   "question": "Is a general-purpose AI model provided, with Chapter V obligations?",
+   "outcome": "no",
+   "reasoning": "The description does not say the tool is a general-purpose model or is built on one.",
+   "citations": []
+  }
+ ],
+ "deadlines": [
+  {
+   "id": "entry-into-force",
+   "date": "2024-08-01",
+   "label": "The AI Act enters into force",
+   "detail": "Article 113: the Regulation enters into force on the twentieth day after its publication in the Official Journal (12 July 2024). Entry into force is not the same as application: most rules apply later, see the dates below.",
+   "status": "in_force",
+   "source_ref": "art-113",
+   "source_label": "Article 113",
+   "page_url": "https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:02024R1689-20260727#page=127"
+  },
+  {
+   "id": "prohibitions",
+   "date": "2025-02-02",
+   "label": "Prohibited practices and AI literacy apply",
+   "detail": "Article 113, third paragraph, point (a): Chapters I and II (general provisions including Article 4 AI literacy, and the Article 5 prohibitions) apply from 2 February 2025, except Article 5(1), points (ba) and (bb), and Article 5(1a) and (1b), which apply from 2 December 2026. Article 4 in its current wording (support the development of AI literacy) applies since Regulation (EU) 2026/1744 entered into force on 27 July 2026.",
+   "status": "in_force",
+   "source_ref": "art-113",
+   "source_label": "Article 113",
+   "page_url": "https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:02024R1689-20260727#page=127"
+  },
+  {
+   "id": "penalties",
+   "date": "2025-08-02",
+   "label": "Penalty rules apply",
+   "detail": "Article 113, third paragraph, point (b): Chapter XII (penalties) applies from 2 August 2025. Breaking an Article 5 prohibition can be fined up to EUR 35 000 000 or, if the offender is an undertaking, up to 7 % of total worldwide annual turnover, whichever is higher (Article 99(3)); breaches of other duties, including Articles 16, 26 and 50, up to EUR 15 000 000 or 3 % (Article 99(4)). For SMEs and start-ups the lower of the two amounts applies (Article 99(6)); for SMCs the lower amount applies to the fines of paragraphs 4 and 5 (Article 99(6a)).",
+   "status": "in_force",
+   "source_ref": "art-113",
+   "source_label": "Article 113",
+   "page_url": "https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:02024R1689-20260727#page=127"
+  },
+  {
+   "id": "omnibus-in-force",
+   "date": "2026-07-27",
+   "label": "Digital Omnibus on AI enters into force",
+   "detail": "Regulation (EU) 2026/1744 of 8 July 2026, published in the Official Journal on 24 July 2026, enters into force on the third day after publication (its Article 4). From this date Articles 102 to 110 apply (Article 113, third paragraph, point (d)), and the amended provisions that have no later date, such as Article 4 and Article 4a, apply. It moves the high-risk dates, adds two prohibitions from 2 December 2026 and adds a transition period for Article 50(2).",
+   "status": "in_force",
+   "source_ref": "art-113",
+   "source_label": "Article 113",
+   "page_url": "https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:02024R1689-20260727#page=127"
+  },
+  {
+   "id": "general-application",
+   "date": "2026-08-02",
+   "label": "General date of application",
+   "detail": "Article 113, second paragraph: the Regulation applies from 2 August 2026, except where Article 113 sets another date. This includes Chapter IV (Article 50 transparency duties) and Article 101 (fines for general-purpose AI model providers). Chapter III Sections 1 to 3 (high-risk classification, requirements and obligations) no longer apply from this date: Regulation (EU) 2026/1744 moved them, see the high-risk entries.",
+   "status": "in_force",
+   "source_ref": "art-113",
+   "source_label": "Article 113",
+   "page_url": "https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:02024R1689-20260727#page=127"
+  },
+  {
+   "id": "transparency",
+   "date": "2026-08-02",
+   "label": "Transparency duties of Article 50 apply",
+   "detail": "Article 50 is in Chapter IV, which follows the general date of application in Article 113. Regulation (EU) 2026/1744 did not move this date; it only added a later date for Article 50(2) marking by systems already on the market (next entry). A high-risk system can carry Article 50 duties as well (Article 50(6)).",
+   "status": "in_force",
+   "source_ref": "art-50",
+   "source_label": "Article 50",
+   "page_url": "https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:02024R1689-20260727#page=59"
+  },
+  {
+   "id": "high-risk-annex-iii",
+   "date": "2027-12-02",
+   "label": "High-risk rules apply to Annex III systems",
+   "detail": "Article 113, third paragraph, point (c)(i): Chapter III Sections 1, 2 and 3 (except Article 6(5)) apply from 2 December 2027 to AI systems classified as high-risk under Article 6(2) and Annex III. The original 2024 text set 2 August 2026; Regulation (EU) 2026/1744 moved it. Systems placed on the market or put into service before this date are covered only if their design changes significantly afterwards (Article 111(2)), except systems for public authorities (2 August 2030).",
+   "status": "upcoming",
+   "source_ref": "art-113",
+   "source_label": "Article 113",
+   "page_url": "https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:02024R1689-20260727#page=127"
+  }
+ ],
+ "verification": {
+  "total": 7,
+  "verified": 6
+ },
+ "sources": [
+  {
+   "ref": "art-3",
+   "label": "Article 3",
+   "title": "Definitions",
+   "page": 5,
+   "page_url": "https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:02024R1689-20260727#page=5"
+  },
+  {
+   "ref": "art-2",
+   "label": "Article 2",
+   "title": "Scope",
+   "page": 2,
+   "page_url": "https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:02024R1689-20260727#page=2"
+  },
+  {
+   "ref": "art-5",
+   "label": "Article 5",
+   "title": "Prohibited AI practices",
+   "page": 13,
+   "page_url": "https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:02024R1689-20260727#page=13"
+  },
+  {
+   "ref": "art-6",
+   "label": "Article 6",
+   "title": "Classification rules for high-risk AI systems",
+   "page": 17,
+   "page_url": "https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:02024R1689-20260727#page=17"
+  },
+  {
+   "ref": "annex-III",
+   "label": "Annex III",
+   "title": "High-risk AI systems referred to in Article 6(2)",
+   "page": 131,
+   "page_url": "https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:02024R1689-20260727#page=131"
+  },
+  {
+   "ref": "art-9",
+   "label": "Article 9",
+   "title": "Risk management system",
+   "page": 21,
+   "page_url": "https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:02024R1689-20260727#page=21"
+  },
+  {
+   "ref": "art-10",
+   "label": "Article 10",
+   "title": "Data and data governance",
+   "page": 22,
+   "page_url": "https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:02024R1689-20260727#page=22"
+  },
+  {
+   "ref": "art-11",
+   "label": "Article 11",
+   "title": "Technical documentation",
+   "page": 24,
+   "page_url": "https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:02024R1689-20260727#page=24"
+  },
+  {
+   "ref": "art-12",
+   "label": "Article 12",
+   "title": "Record-keeping",
+   "page": 24,
+   "page_url": "https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:02024R1689-20260727#page=24"
+  },
+  {
+   "ref": "art-14",
+   "label": "Article 14",
+   "title": "Human oversight",
+   "page": 26,
+   "page_url": "https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:02024R1689-20260727#page=26"
+  },
+  {
+   "ref": "art-26",
+   "label": "Article 26",
+   "title": "Obligations of deployers of high-risk AI systems",
+   "page": 37,
+   "page_url": "https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:02024R1689-20260727#page=37"
+  },
+  {
+   "ref": "art-4",
+   "label": "Article 4",
+   "title": "AI literacy",
+   "page": 11,
+   "page_url": "https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:02024R1689-20260727#page=11"
+  }
+ ]
+}

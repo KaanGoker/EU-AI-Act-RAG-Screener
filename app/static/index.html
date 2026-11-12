@@ -1,0 +1,185 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>EU AI Act Screener</title>
+<meta name="description" content="Screen an AI system description against Regulation (EU) 2024/1689, check by check, with every quote checked word for word against the text of the Act on EUR-Lex.">
+<meta name="color-scheme" content="light dark">
+<link rel="icon" href="/static/favicon.svg" type="image/svg+xml">
+<link rel="preload" href="/static/fonts/newsreader-latin.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/static/fonts/instrument-sans-latin.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="/static/css/app.css">
+<script src="/static/js/theme-init.js"></script>
+<script type="module" src="/static/js/main.js"></script>
+</head>
+<body>
+<a class="skip" href="#main">Skip to the screener</a>
+
+<header class="masthead">
+  <div class="masthead__inner">
+    <a class="brand" href="/" aria-label="EU AI Act Screener, home">
+      <svg class="brand__mark" viewBox="0 0 32 32" aria-hidden="true"><rect width="32" height="32" rx="7" class="brand__bg"/><path d="M16 6v20" class="brand__rail"/><circle cx="16" cy="8" r="2.6" class="brand__stop"/><circle cx="16" cy="16" r="2.6" class="brand__stop"/><circle cx="16" cy="24" r="3.4" class="brand__end"/></svg>
+      <span class="brand__text"><span class="brand__name">EU AI Act Screener</span><span class="brand__ref">Regulation (EU) 2024/1689</span></span>
+    </a>
+    <nav class="masthead__nav" aria-label="Tools">
+      <button type="button" class="navbtn" data-open="reader" aria-controls="aside" title="The Act">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 5.5C6.5 4.5 9.5 4.5 12 6c2.5-1.5 5.5-1.5 8-.5v13c-2.5-1-5.5-1-8 .5-2.5-1.5-5.5-1.5-8-.5z"/><path d="M12 6v13.5"/></svg>
+        <span class="navbtn__text">The Act</span>
+      </button>
+      <button type="button" class="navbtn" data-open="ask" aria-controls="aside" title="Ask the Act">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 5h14v10H9l-4 4z"/><path d="M9 9h6M9 12h4"/></svg>
+        <span class="navbtn__text">Ask the Act</span>
+      </button>
+      <button type="button" class="navbtn navbtn--icon" id="theme-toggle" aria-label="Switch to dark theme" title="Switch theme">
+        <svg class="i-moon" viewBox="0 0 24 24" aria-hidden="true"><path d="M19 14.5A7.5 7.5 0 0 1 9.5 5a7.5 7.5 0 1 0 9.5 9.5z"/></svg>
+        <svg class="i-sun" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2.5v2.5M12 19v2.5M2.5 12H5M19 12h2.5M5.3 5.3l1.8 1.8M16.9 16.9l1.8 1.8M5.3 18.7l1.8-1.8M16.9 7.1l1.8-1.8"/></svg>
+      </button>
+    </nav>
+  </div>
+</header>
+
+<div class="layout">
+<main id="main" class="main" tabindex="-1">
+
+  <section class="intro" aria-labelledby="intro-title">
+    <p class="kicker"><span class="kicker__dot" aria-hidden="true"></span>Risk screening, draft only, not legal advice</p>
+    <h1 id="intro-title" class="intro__title">Read your AI system against the <em>AI Act</em>, one check at a time.</h1>
+    <p class="intro__lede">Describe what the system does. The screener walks six checks that follow the structure of the Act, cites the articles it relies on and checks every quote word for word against the text of the Act: articles and annexes against <span data-text-version>the consolidated text on EUR-Lex</span>, amendments included, recitals against the 2024 Official Journal text.</p>
+  </section>
+
+  <form id="screen-form" class="screen" novalidate>
+    <div class="field">
+      <div class="field__head">
+        <label for="desc" class="field__label">Describe the AI system</label>
+        <span class="counter" id="desc-counter" aria-live="polite">0 / 4000</span>
+      </div>
+      <textarea id="desc" name="description" rows="6" minlength="30" maxlength="4000" required aria-describedby="desc-hint desc-error" placeholder="What does it do, who uses it, what does it decide or produce, and where is it used?"></textarea>
+      <p class="field__hint" id="desc-hint">30 to 4000 characters. Leave out names, contact details and anything confidential. <kbd>Ctrl</kbd> + <kbd>Enter</kbd> screens.</p>
+      <p class="field__error" id="desc-error" hidden></p>
+    </div>
+
+    <div class="examples" id="examples" hidden>
+      <span class="examples__label" id="examples-label">Try an example</span>
+      <div class="examples__list" role="group" aria-labelledby="examples-label"></div>
+    </div>
+
+    <fieldset class="role">
+      <legend class="field__label">Your role</legend>
+      <div class="role__options">
+        <label class="role__opt"><input type="radio" name="role" value="provider" checked><span><strong>Provider</strong><small>I build it or sell it under my name</small></span></label>
+        <label class="role__opt"><input type="radio" name="role" value="deployer"><span><strong>Deployer</strong><small>I use it in my organization</small></span></label>
+        <label class="role__opt"><input type="radio" name="role" value="unknown"><span><strong>Not sure</strong><small>Show both sides</small></span></label>
+      </div>
+    </fieldset>
+
+    <div class="screen__actions">
+      <button type="submit" class="btn btn--primary" id="screen-btn">
+        <span>Screen the system</span>
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h13M13 6l6 6-6 6"/></svg>
+      </button>
+      <p class="screen__note" id="screen-note">Sent to the Google Gemini API for the reasoning step. This app stores and logs nothing you type.</p>
+    </div>
+  </form>
+
+  <section id="progress" class="progress" hidden aria-labelledby="progress-title">
+    <h2 id="progress-title" class="visually-hidden">Screening in progress</h2>
+    <ol class="progress__stages">
+      <li data-stage="retrieving"><span class="progress__dot" aria-hidden="true"></span><span class="progress__name">Retrieving</span><span class="progress__desc">Finding the articles and annex points that matter</span></li>
+      <li data-stage="reasoning"><span class="progress__dot" aria-hidden="true"></span><span class="progress__name">Reasoning</span><span class="progress__desc">Walking six checks that follow the structure of the Act</span></li>
+      <li data-stage="verifying"><span class="progress__dot" aria-hidden="true"></span><span class="progress__name">Verifying</span><span class="progress__desc">Checking every quote against the text of the Act</span></li>
+    </ol>
+    <p class="progress__status"><span id="progress-live" aria-live="polite"></span><span class="progress__time" id="progress-time">0.0 s</span></p>
+  </section>
+
+  <div id="result-live" class="visually-hidden" aria-live="polite"></div>
+  <section id="result" class="result" hidden tabindex="-1" aria-label="Screening result"></section>
+
+</main>
+
+<aside id="aside" class="aside" aria-label="The Act and questions">
+  <div class="aside__scrim" data-close></div>
+  <div class="aside__panel" id="aside-panel">
+    <div class="aside__bar">
+      <h2 id="aside-title" class="visually-hidden">The Act</h2>
+      <div class="tabs" role="tablist" aria-label="Panel">
+        <button type="button" role="tab" id="tab-reader" aria-controls="pane-reader" aria-selected="true" class="tab">The Act</button>
+        <button type="button" role="tab" id="tab-ask" aria-controls="pane-ask" aria-selected="false" class="tab" tabindex="-1">Ask the Act</button>
+      </div>
+      <button type="button" class="iconbtn" data-close aria-label="Close panel">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18"/></svg>
+      </button>
+    </div>
+
+    <div id="pane-reader" role="tabpanel" aria-labelledby="tab-reader" class="pane pane--reader">
+      <div class="reader__tools">
+        <form class="search" id="search-form" role="search">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="6"/><path d="M16 16l4 4"/></svg>
+          <label for="search-q" class="visually-hidden">Search the Act</label>
+          <input id="search-q" type="search" placeholder="Search the Act (English text)" autocomplete="off" maxlength="200">
+        </form>
+        <button type="button" class="chipbtn" id="toc-btn" aria-expanded="false" aria-controls="reader-toc">Contents</button>
+      </div>
+      <div class="reader__body" id="reader-body" tabindex="-1"></div>
+    </div>
+
+    <div id="pane-ask" role="tabpanel" aria-labelledby="tab-ask" class="pane pane--ask" hidden>
+      <div class="ask__log" id="ask-log" aria-live="polite"></div>
+      <div class="ask__bar" id="ask-bar" hidden>
+        <button type="button" class="linkbtn" id="ask-clear">Start a new conversation</button>
+        <span class="ask__bar-note">Questions and answers are kept in this tab only.</span>
+      </div>
+      <form class="ask__form" id="ask-form">
+        <label for="ask-q" class="visually-hidden">Your question about the Act</label>
+        <textarea id="ask-q" rows="2" maxlength="1000" placeholder="Ask about the Act, for example: what counts as a deployer?"></textarea>
+        <button type="submit" class="btn btn--primary btn--small" id="ask-btn" aria-label="Send question">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h13M13 6l6 6-6 6"/></svg>
+        </button>
+      </form>
+    </div>
+  </div>
+</aside>
+</div>
+
+<footer class="footer">
+  <div class="footer__inner">
+    <div class="footer__legal">
+      <p><strong>Not legal advice.</strong> A draft screening for orientation only. Independent project, not affiliated with the European Union.</p>
+      <p class="footer__notice">A consolidated text is a documentation tool. The authentic text is the one published in the Official Journal of the European Union.</p>
+    </div>
+    <p class="footer__meta">
+      Text: <a id="text-link" href="https://eur-lex.europa.eu/eli/reg/2024/1689/oj" rel="noopener" target="_blank">Regulation (EU) 2024/1689, <span data-text-version>the consolidated text on EUR-Lex</span></a>
+      <span aria-hidden="true">/</span>
+      <a href="https://github.com/KaanGoker/EU-AI-Act-RAG-Screener" rel="noopener" target="_blank">Source on GitHub</a>
+      <span aria-hidden="true">/</span>
+      <a href="/disclaimer" rel="noopener" target="_blank">Disclaimer</a>
+      <span aria-hidden="true">/</span>
+      <button type="button" class="linkbtn" id="terms-reopen">Terms</button>
+      <span aria-hidden="true">/</span>
+      <span class="mono" id="version">v1.0</span>
+    </p>
+  </div>
+</footer>
+
+<dialog id="terms" class="terms" aria-labelledby="terms-title">
+  <form method="dialog" class="terms__inner">
+    <p class="kicker"><span class="kicker__dot" aria-hidden="true"></span>Before you start</p>
+    <h2 id="terms-title" class="terms__title" tabindex="-1" autofocus>A prototype for orientation, not legal advice</h2>
+    <ul class="terms__list">
+      <li><strong>A draft screening, not legal advice.</strong> Results can be incomplete, outdated or wrong. Check them against the official text and a qualified lawyer before you rely on them.</li>
+      <li><strong>18 or older.</strong> You must be 18 or older. The Gemini API terms do not allow use by anyone under 18.</li>
+      <li><strong>No personal or confidential data.</strong> Do not paste names, emails, IDs, CVs, health data, contracts or internal company details.</li>
+      <li><strong>Google processes your text.</strong> Descriptions, answers and questions are sent to the Google Gemini API and processed by Google under the <a href="https://aistudio.google.com/docs/terms" target="_blank" rel="noopener">Gemini API Additional Terms of Service</a>. On the hosted demo your text also passes through <a href="https://huggingface.co/privacy" target="_blank" rel="noopener">Hugging Face</a>.</li>
+      <li><strong>Nothing is stored by this app.</strong> It stores and logs nothing you type and saves no results. Your acceptance and your theme are kept in this browser only.</li>
+      <li><strong>No liability.</strong> To the extent the law allows, the developer is not liable for losses from using this prototype.</li>
+    </ul>
+    <p class="terms__more"><a href="/disclaimer" target="_blank" rel="noopener">Read the full disclaimer</a></p>
+    <div class="terms__actions">
+      <button type="submit" class="btn btn--primary" value="accept" id="terms-accept">I am 18 or older and I agree</button>
+    </div>
+  </form>
+</dialog>
+
+<div id="toast" class="toast" role="status" aria-live="polite" hidden></div>
+</body>
+</html>

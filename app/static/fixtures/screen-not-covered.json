@@ -1,0 +1,117 @@
+{
+ "id": "3c7d1e90-5b2a-4f68-9d14-7e0a2c6b8f30",
+ "created": "2026-11-11T20:00:00Z",
+ "model": "gemini-fixture",
+ "version": "1.0.0",
+ "in_scope": true,
+ "refusal": null,
+ "language": "en",
+ "role": "provider",
+ "gpai": {
+  "applies": false,
+  "note": null
+ },
+ "obligations": [],
+ "open_questions": [
+  {
+   "question": "Is the system also offered or used for civilian purposes, such as border control or police work?",
+   "why": "Article 2(3) only excludes systems used exclusively for military, defence or national security purposes."
+  }
+ ],
+ "disclaimer": "Draft assessment only. Not legal advice. Quotes are checked against the consolidated text of the AI Act of 27 July 2026, published by EUR-Lex. A consolidated text is a documentation tool without legal effect; the authentic text is the one published in the Official Journal of the European Union. Recitals are quoted from the Official Journal version of 2024. The model can be wrong or overly certain. Verify against the cited text and consult a qualified professional before you make decisions.",
+ "summary": "A system that fuses drone and radar data to suggest targets to military operators of the armed forces, used only for defence.",
+ "risk_class": "not_covered",
+ "confidence": "high",
+ "headline": "Article 2(3) excludes AI systems used exclusively for military, defence or national security purposes, so the Act does not apply as described.",
+ "steps": [
+  {
+   "id": "scope",
+   "title": "Scope",
+   "question": "Is this an AI system that falls under the Act?",
+   "outcome": "no",
+   "reasoning": "The system is an AI system, but it is described as used only by the armed forces for targeting support. Article 2(3) takes AI systems used exclusively for military, defence or national security purposes out of the Act.",
+   "citations": [
+    {
+     "ref": "art-3-1",
+     "label": "Article 3(1)",
+     "title": "Definitions",
+     "quote": "‘AI system’ means a machine-based system that is designed to operate with varying levels of autonomy",
+     "verified": true,
+     "page": 5,
+     "page_url": "https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:02024R1689-20260727#page=5"
+    },
+    {
+     "ref": "art-2-3",
+     "label": "Article 2(3)",
+     "title": "Scope",
+     "quote": "This Regulation does not apply to AI systems where and in so far they are placed on the market, put into service, or used with or without modification exclusively for military, defence or national security purposes",
+     "verified": true,
+     "page": 3,
+     "page_url": "https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:02024R1689-20260727#page=3"
+    }
+   ]
+  },
+  {
+   "id": "prohibited",
+   "title": "Prohibited practices",
+   "question": "Is it a prohibited AI practice under Article 5?",
+   "outcome": "not_applicable",
+   "reasoning": "Not reached: an earlier step already decided the result.",
+   "citations": []
+  },
+  {
+   "id": "high_risk",
+   "title": "High-risk classification",
+   "question": "Is it high-risk under Article 6(1) with Annex I or Article 6(2) with Annex III?",
+   "outcome": "not_applicable",
+   "reasoning": "Not reached: an earlier step already decided the result.",
+   "citations": []
+  },
+  {
+   "id": "exemption",
+   "title": "Article 6(3) exemption",
+   "question": "Does the Article 6(3) exemption take it out of the high-risk class?",
+   "outcome": "not_applicable",
+   "reasoning": "Not reached: an earlier step already decided the result.",
+   "citations": []
+  },
+  {
+   "id": "transparency",
+   "title": "Transparency duties",
+   "question": "Do the Article 50 transparency obligations apply?",
+   "outcome": "not_applicable",
+   "reasoning": "Not reached: an earlier step already decided the result.",
+   "citations": []
+  },
+  {
+   "id": "gpai",
+   "title": "General-purpose AI",
+   "question": "Is a general-purpose AI model provided, with Chapter V obligations?",
+   "outcome": "not_applicable",
+   "reasoning": "Not reached: an earlier step already decided the result.",
+   "citations": []
+  }
+ ],
+ "deadlines": [],
+ "high_risk_basis": "none",
+ "verification": {
+  "total": 2,
+  "verified": 2
+ },
+ "sources": [
+  {
+   "ref": "art-3",
+   "label": "Article 3",
+   "title": "Definitions",
+   "page": 5,
+   "page_url": "https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:02024R1689-20260727#page=5"
+  },
+  {
+   "ref": "art-2",
+   "label": "Article 2",
+   "title": "Scope",
+   "page": 2,
+   "page_url": "https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:02024R1689-20260727#page=2"
+  }
+ ]
+}
