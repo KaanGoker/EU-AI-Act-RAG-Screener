@@ -1,13 +1,27 @@
-.files/
+# Python
 __pycache__/
-*.pyc
 *.py[cod]
 *$py.class
 .venv/
 venv/
+.pytest_cache/
+
+# Secrets
 .env
-.env.local
-.streamlit/
-streamlit_app.py
-.chainlit/translations/
+.env.*
+
+# Embedding model cache (fastembed downloads it, about 1.2 GB)
+models/
+
+# Evaluation runs
+eval/results/
+
+# Playwright
+test-results/
+playwright-report/
+.playwright/
+
+# Local notes and editor files
 notes.txt
+.files/
+.DS_Store

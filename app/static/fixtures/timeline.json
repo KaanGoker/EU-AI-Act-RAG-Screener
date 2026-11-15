@@ -1,0 +1,462 @@
+{
+ "as_of": "2026-11-11",
+ "law_in_force": "Regulation (EU) 2024/1689 as amended by Regulation (EU) 2026/1744 (Digital Omnibus on AI), in force since 27 July 2026; dates checked against the EUR-Lex consolidated version of 27 July 2026",
+ "entries": [
+  {
+   "id": "entry-into-force",
+   "date": "2024-08-01",
+   "label": "The AI Act enters into force",
+   "detail": "Article 113: the Regulation enters into force on the twentieth day after its publication in the Official Journal (12 July 2024). Entry into force is not the same as application: most rules apply later, see the dates below.",
+   "applies_to": [
+    "all"
+   ],
+   "source_ref": "art-113",
+   "sources": [
+    {
+     "title": "Regulation (EU) 2024/1689, consolidated version of 27 July 2026 (EUR-Lex)",
+     "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02024R1689-20260727"
+    },
+    {
+     "title": "Regulation (EU) 2024/1689 (Artificial Intelligence Act), OJ L, 12.7.2024, Article 113",
+     "url": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj/eng"
+    }
+   ]
+  },
+  {
+   "id": "prohibitions",
+   "date": "2025-02-02",
+   "label": "Prohibited practices and AI literacy apply",
+   "detail": "Article 113, third paragraph, point (a): Chapters I and II (general provisions including Article 4 AI literacy, and the Article 5 prohibitions) apply from 2 February 2025, except Article 5(1), points (ba) and (bb), and Article 5(1a) and (1b), which apply from 2 December 2026. Article 4 in its current wording (support the development of AI literacy) applies since Regulation (EU) 2026/1744 entered into force on 27 July 2026.",
+   "applies_to": [
+    "all"
+   ],
+   "source_ref": "art-113",
+   "sources": [
+    {
+     "title": "Regulation (EU) 2024/1689, consolidated version of 27 July 2026 (EUR-Lex)",
+     "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02024R1689-20260727"
+    },
+    {
+     "title": "Regulation (EU) 2024/1689, Article 113",
+     "url": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj/eng"
+    },
+    {
+     "title": "Regulation (EU) 2026/1744 (Digital Omnibus on AI), Article 1, points (5) and (40)",
+     "url": "https://eur-lex.europa.eu/eli/reg/2026/1744/oj/eng"
+    }
+   ]
+  },
+  {
+   "id": "gpai-obligations",
+   "date": "2025-08-02",
+   "label": "Obligations for general-purpose AI model providers apply",
+   "detail": "Article 113, third paragraph, point (b): Chapter V (general-purpose AI models), together with Chapter III Section 4 (notified bodies), Chapter VII (governance), Chapter XII (penalties) and Article 78, applies from 2 August 2025, except Article 101 (fines for general-purpose AI model providers).",
+   "applies_to": [
+    "gpai"
+   ],
+   "source_ref": "art-113",
+   "sources": [
+    {
+     "title": "Regulation (EU) 2024/1689, consolidated version of 27 July 2026 (EUR-Lex)",
+     "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02024R1689-20260727"
+    },
+    {
+     "title": "Regulation (EU) 2024/1689, Article 113",
+     "url": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj/eng"
+    }
+   ]
+  },
+  {
+   "id": "penalties",
+   "date": "2025-08-02",
+   "label": "Penalty rules apply",
+   "detail": "Article 113, third paragraph, point (b): Chapter XII (penalties) applies from 2 August 2025. Breaking an Article 5 prohibition can be fined up to EUR 35 000 000 or, if the offender is an undertaking, up to 7 % of total worldwide annual turnover, whichever is higher (Article 99(3)); breaches of other duties, including Articles 16, 26 and 50, up to EUR 15 000 000 or 3 % (Article 99(4)). For SMEs and start-ups the lower of the two amounts applies (Article 99(6)); for SMCs the lower amount applies to the fines of paragraphs 4 and 5 (Article 99(6a)).",
+   "applies_to": [
+    "prohibited",
+    "high",
+    "limited"
+   ],
+   "source_ref": "art-113",
+   "sources": [
+    {
+     "title": "Regulation (EU) 2024/1689, consolidated version of 27 July 2026 (EUR-Lex)",
+     "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02024R1689-20260727"
+    },
+    {
+     "title": "Regulation (EU) 2024/1689, Articles 99 and 113",
+     "url": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj/eng"
+    }
+   ]
+  },
+  {
+   "id": "omnibus-in-force",
+   "date": "2026-07-27",
+   "label": "Digital Omnibus on AI enters into force",
+   "detail": "Regulation (EU) 2026/1744 of 8 July 2026, published in the Official Journal on 24 July 2026, enters into force on the third day after publication (its Article 4). From this date Articles 102 to 110 apply (Article 113, third paragraph, point (d)), and the amended provisions that have no later date, such as Article 4 and Article 4a, apply. It moves the high-risk dates, adds two prohibitions from 2 December 2026 and adds a transition period for Article 50(2).",
+   "applies_to": [
+    "all"
+   ],
+   "source_ref": "art-113",
+   "sources": [
+    {
+     "title": "Regulation (EU) 2024/1689, consolidated version of 27 July 2026 (EUR-Lex)",
+     "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02024R1689-20260727"
+    },
+    {
+     "title": "Regulation (EU) 2026/1744 (Digital Omnibus on AI), OJ L, 24.7.2026",
+     "url": "https://eur-lex.europa.eu/eli/reg/2026/1744/oj/eng"
+    }
+   ]
+  },
+  {
+   "id": "sectoral-amendments",
+   "date": "2026-07-27",
+   "label": "Amendments to the Section B sectoral acts apply",
+   "detail": "Article 113, third paragraph, point (d): Articles 102 to 110 apply from 27 July 2026. Articles 102 to 109 require the Commission to take the Chapter III, Section 2 requirements into account when adopting delegated or implementing acts under the Section B acts on aviation, vehicles, marine equipment and rail.",
+   "applies_to": [
+    "high_annex_i_b"
+   ],
+   "source_ref": "art-113",
+   "sources": [
+    {
+     "title": "Regulation (EU) 2024/1689, consolidated version of 27 July 2026 (EUR-Lex)",
+     "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02024R1689-20260727"
+    },
+    {
+     "title": "Regulation (EU) 2026/1744 (Digital Omnibus on AI)",
+     "url": "https://eur-lex.europa.eu/eli/reg/2026/1744/oj/eng"
+    }
+   ]
+  },
+  {
+   "id": "general-application",
+   "date": "2026-08-02",
+   "label": "General date of application",
+   "detail": "Article 113, second paragraph: the Regulation applies from 2 August 2026, except where Article 113 sets another date. This includes Chapter IV (Article 50 transparency duties) and Article 101 (fines for general-purpose AI model providers). Chapter III Sections 1 to 3 (high-risk classification, requirements and obligations) no longer apply from this date: Regulation (EU) 2026/1744 moved them, see the high-risk entries.",
+   "applies_to": [
+    "all"
+   ],
+   "source_ref": "art-113",
+   "sources": [
+    {
+     "title": "Regulation (EU) 2024/1689, consolidated version of 27 July 2026 (EUR-Lex)",
+     "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02024R1689-20260727"
+    },
+    {
+     "title": "Regulation (EU) 2024/1689, Article 113",
+     "url": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj/eng"
+    },
+    {
+     "title": "Regulation (EU) 2026/1744, Article 1, point (40)",
+     "url": "https://eur-lex.europa.eu/eli/reg/2026/1744/oj/eng"
+    }
+   ]
+  },
+  {
+   "id": "transparency",
+   "date": "2026-08-02",
+   "label": "Transparency duties of Article 50 apply",
+   "detail": "Article 50 is in Chapter IV, which follows the general date of application in Article 113. Regulation (EU) 2026/1744 did not move this date; it only added a later date for Article 50(2) marking by systems already on the market (next entry). A high-risk system can carry Article 50 duties as well (Article 50(6)).",
+   "applies_to": [
+    "limited",
+    "high"
+   ],
+   "source_ref": "art-50",
+   "sources": [
+    {
+     "title": "Regulation (EU) 2024/1689, consolidated version of 27 July 2026 (EUR-Lex)",
+     "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02024R1689-20260727"
+    },
+    {
+     "title": "Regulation (EU) 2024/1689, Articles 50 and 113",
+     "url": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj/eng"
+    }
+   ]
+  },
+  {
+   "id": "gpai-fines",
+   "date": "2026-08-02",
+   "label": "Commission can fine general-purpose AI model providers",
+   "detail": "Article 101 was excluded from the 2 August 2025 date by Article 113, third paragraph, point (b), so it follows the general date of application.",
+   "applies_to": [
+    "gpai"
+   ],
+   "source_ref": "art-113",
+   "sources": [
+    {
+     "title": "Regulation (EU) 2024/1689, consolidated version of 27 July 2026 (EUR-Lex)",
+     "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02024R1689-20260727"
+    },
+    {
+     "title": "Regulation (EU) 2024/1689, Articles 101 and 113",
+     "url": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj/eng"
+    }
+   ]
+  },
+  {
+   "id": "transparency-legacy-marking",
+   "date": "2026-12-02",
+   "label": "Machine-readable marking for generative systems already on the market",
+   "detail": "Article 111(4): providers of AI systems, including general-purpose AI systems, generating synthetic audio, image, video or text content that were placed on the market before 2 August 2026 must comply with Article 50(2) by 2 December 2026. Systems placed on the market from 2 August 2026 must comply from the start.",
+   "applies_to": [
+    "limited",
+    "gpai",
+    "generative"
+   ],
+   "source_ref": "art-111-4",
+   "sources": [
+    {
+     "title": "Regulation (EU) 2024/1689, consolidated version of 27 July 2026 (EUR-Lex)",
+     "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02024R1689-20260727"
+    },
+    {
+     "title": "Regulation (EU) 2026/1744, Article 1, point (39)(b), new Article 111(4)",
+     "url": "https://eur-lex.europa.eu/eli/reg/2026/1744/oj/eng"
+    }
+   ]
+  },
+  {
+   "id": "new-prohibitions",
+   "date": "2026-12-02",
+   "label": "New prohibitions on non-consensual intimate imagery and child sexual abuse material apply",
+   "detail": "Article 5(1), points (ba) and (bb), and Article 5(1a) and (1b), inserted by Regulation (EU) 2026/1744: AI systems that generate or manipulate realistic intimate images, video or audio of an identifiable person without that person's consent, or child sexual abuse material within the meaning of Directive 2011/93/EU. They apply from 2 December 2026 (Article 113, third paragraph, point (a)).",
+   "applies_to": [
+    "prohibited",
+    "generative"
+   ],
+   "source_ref": "art-5-1",
+   "sources": [
+    {
+     "title": "Regulation (EU) 2024/1689, consolidated version of 27 July 2026 (EUR-Lex)",
+     "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02024R1689-20260727"
+    },
+    {
+     "title": "Regulation (EU) 2026/1744, Article 1, points (7) and (40)(a)",
+     "url": "https://eur-lex.europa.eu/eli/reg/2026/1744/oj/eng"
+    }
+   ]
+  },
+  {
+   "id": "gpai-legacy",
+   "date": "2027-08-02",
+   "label": "Deadline for general-purpose AI models placed on the market before 2 August 2025",
+   "detail": "Article 111(3): providers of general-purpose AI models placed on the market before 2 August 2025 must take the necessary steps to comply with the Regulation by 2 August 2027. Not changed by Regulation (EU) 2026/1744.",
+   "applies_to": [
+    "gpai"
+   ],
+   "source_ref": "art-111-3",
+   "sources": [
+    {
+     "title": "Regulation (EU) 2024/1689, consolidated version of 27 July 2026 (EUR-Lex)",
+     "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02024R1689-20260727"
+    },
+    {
+     "title": "Regulation (EU) 2024/1689, Article 111(3)",
+     "url": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj/eng"
+    }
+   ]
+  },
+  {
+   "id": "high-risk-annex-iii",
+   "date": "2027-12-02",
+   "label": "High-risk rules apply to Annex III systems",
+   "detail": "Article 113, third paragraph, point (c)(i): Chapter III Sections 1, 2 and 3 (except Article 6(5)) apply from 2 December 2027 to AI systems classified as high-risk under Article 6(2) and Annex III. The original 2024 text set 2 August 2026; Regulation (EU) 2026/1744 moved it. Systems placed on the market or put into service before this date are covered only if their design changes significantly afterwards (Article 111(2)), except systems for public authorities (2 August 2030).",
+   "applies_to": [
+    "high_annex_iii"
+   ],
+   "source_ref": "art-113",
+   "sources": [
+    {
+     "title": "Regulation (EU) 2024/1689, consolidated version of 27 July 2026 (EUR-Lex)",
+     "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02024R1689-20260727"
+    },
+    {
+     "title": "Regulation (EU) 2026/1744, Article 1, point (40)(b)",
+     "url": "https://eur-lex.europa.eu/eli/reg/2026/1744/oj/eng"
+    },
+    {
+     "title": "Regulation (EU) 2024/1689, Article 113 (original date)",
+     "url": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj/eng"
+    }
+   ]
+  },
+  {
+   "id": "high-risk-annex-i",
+   "date": "2028-08-02",
+   "label": "High-risk rules apply to AI in products covered by Annex I Section A",
+   "detail": "Article 113, third paragraph, point (c)(ii): Chapter III Sections 1, 2 and 3 (except Article 6(5)) apply from 2 August 2028 to AI systems classified as high-risk under Article 6(1) and Annex I. For products under Section A (for example medical devices, in vitro diagnostics, toys, lifts, radio equipment) these are the full high-risk requirements and obligations. The original 2024 text set 2 August 2027; Regulation (EU) 2026/1744 moved it.",
+   "applies_to": [
+    "high_annex_i"
+   ],
+   "source_ref": "art-113",
+   "sources": [
+    {
+     "title": "Regulation (EU) 2024/1689, consolidated version of 27 July 2026 (EUR-Lex)",
+     "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02024R1689-20260727"
+    },
+    {
+     "title": "Regulation (EU) 2026/1744, Article 1, point (40)(b)",
+     "url": "https://eur-lex.europa.eu/eli/reg/2026/1744/oj/eng"
+    },
+    {
+     "title": "Regulation (EU) 2024/1689, Article 113 (original date)",
+     "url": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj/eng"
+    }
+   ]
+  },
+  {
+   "id": "high-risk-annex-i-section-b",
+   "date": "2028-08-02",
+   "label": "Article 6(1) classification applies to AI in products covered by Annex I Section B",
+   "detail": "Article 113, third paragraph, point (c)(ii) sets 2 August 2028 for Chapter III Sections 1 to 3 as regards Article 6(1) and Annex I. For products under Section B (vehicles, aviation, rail, marine equipment, machinery and the other Section B acts), Article 2(2) says only Article 6(1), Article 60a and Articles 102 to 112 apply, so the high-risk requirements reach these systems through the sectoral acts, not from this date. For machinery, the delegated acts that add the AI requirements to Regulation (EU) 2023/1230 shall apply by 2 August 2028 (Regulation (EU) 2026/1744, Article 3(1)).",
+   "applies_to": [
+    "high_annex_i_b"
+   ],
+   "source_ref": "art-2-2",
+   "sources": [
+    {
+     "title": "Regulation (EU) 2024/1689, consolidated version of 27 July 2026 (EUR-Lex)",
+     "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02024R1689-20260727"
+    },
+    {
+     "title": "Regulation (EU) 2026/1744, Article 3(1), new paragraphs of Article 8 of Regulation (EU) 2023/1230",
+     "url": "https://eur-lex.europa.eu/eli/reg/2026/1744/oj/eng"
+    }
+   ]
+  },
+  {
+   "id": "high-risk-public-authorities",
+   "date": "2030-08-02",
+   "label": "Deadline for existing high-risk systems used by public authorities",
+   "detail": "Article 111(2): providers and deployers of high-risk AI systems intended to be used by public authorities must comply by 2 August 2030, even if the system was already on the market before the high-risk rules applied to it.",
+   "applies_to": [
+    "public_authority"
+   ],
+   "source_ref": "art-111-2",
+   "sources": [
+    {
+     "title": "Regulation (EU) 2024/1689, consolidated version of 27 July 2026 (EUR-Lex)",
+     "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02024R1689-20260727"
+    },
+    {
+     "title": "Regulation (EU) 2026/1744, Article 1, point (39)(a)",
+     "url": "https://eur-lex.europa.eu/eli/reg/2026/1744/oj/eng"
+    }
+   ]
+  },
+  {
+   "id": "large-scale-it",
+   "date": "2030-12-31",
+   "label": "Deadline for AI in EU large-scale IT systems (Annex X)",
+   "detail": "Article 111(1): AI systems that are components of the large-scale IT systems listed in Annex X (for example the Schengen Information System) and were placed on the market or put into service before 2 August 2027 must comply by 31 December 2030. Not changed by Regulation (EU) 2026/1744.",
+   "applies_to": [
+    "large_scale_it"
+   ],
+   "source_ref": "art-111-1",
+   "sources": [
+    {
+     "title": "Regulation (EU) 2024/1689, consolidated version of 27 July 2026 (EUR-Lex)",
+     "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02024R1689-20260727"
+    },
+    {
+     "title": "Regulation (EU) 2024/1689, Article 111(1)",
+     "url": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj/eng"
+    }
+   ]
+  }
+ ],
+ "notes": [
+  {
+   "text": "The Digital Omnibus on AI, proposed by the Commission in November 2025, is adopted law: Regulation (EU) 2026/1744 of 8 July 2026 (Parliament position of 16 June 2026, Council decision of 29 June 2026), published in the Official Journal on 24 July 2026 and in force since 27 July 2026. EUR-Lex lists it as the only act amending Regulation (EU) 2024/1689, with a consolidated version dated 27 July 2026. The dates in this file follow the amended text.",
+   "sources": [
+    {
+     "title": "Regulation (EU) 2026/1744 (Digital Omnibus on AI), EUR-Lex",
+     "url": "https://eur-lex.europa.eu/eli/reg/2026/1744/oj/eng"
+    },
+    {
+     "title": "Regulation (EU) 2024/1689, EUR-Lex document information (amendments, consolidated versions)",
+     "url": "https://eur-lex.europa.eu/legal-content/EN/ALL/?uri=CELEX:32024R1689"
+    }
+   ]
+  },
+  {
+   "text": "The Act text in this app is the EUR-Lex consolidated version of Regulation (EU) 2024/1689 of 27 July 2026, which includes the amendments of Regulation (EU) 2026/1744. A consolidated version is a documentation tool with no legal effect; the authentic texts are those published in the Official Journal. The consolidated version does not reproduce the recitals, so the recitals shown are those of the 2024 Official Journal text.",
+   "sources": [
+    {
+     "title": "Regulation (EU) 2024/1689, consolidated version of 27 July 2026 (EUR-Lex)",
+     "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02024R1689-20260727"
+    },
+    {
+     "title": "Regulation (EU) 2024/1689, OJ L, 12.7.2024 (recitals)",
+     "url": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj/eng"
+    }
+   ]
+  },
+  {
+   "text": "Article 6(5) required Commission guidelines on high-risk classification, with practical examples, by 2 February 2026. The Commission published draft guidelines on 19 May 2026 for a targeted consultation. On 11 November 2026 the Commission page still lists them as a draft. Guidelines are not binding.",
+   "sources": [
+    {
+     "title": "European Commission: Draft Commission guidelines on the classification of high-risk AI systems",
+     "url": "https://digital-strategy.ec.europa.eu/en/library/draft-commission-guidelines-classification-high-risk-ai-systems"
+    }
+   ]
+  },
+  {
+   "text": "Commission guidelines on prohibited AI practices were published on 4 February 2025. They are non-binding; authoritative interpretation is reserved for the Court of Justice of the EU. They predate the two prohibitions added by Regulation (EU) 2026/1744.",
+   "sources": [
+    {
+     "title": "European Commission: Guidelines on prohibited artificial intelligence practices",
+     "url": "https://digital-strategy.ec.europa.eu/en/library/commission-publishes-guidelines-prohibited-artificial-intelligence-ai-practices-defined-ai-act"
+    }
+   ]
+  },
+  {
+   "text": "Commission guidelines on the transparency obligations of Article 50 were adopted and published on 20 July 2026. A voluntary Code of Practice on marking and labelling AI-generated content was published on 10 June 2026; the Commission and the AI Board confirmed it is an adequate voluntary tool to show compliance.",
+   "sources": [
+    {
+     "title": "European Commission: Guidelines on transparency obligations for providers and deployers of AI systems",
+     "url": "https://digital-strategy.ec.europa.eu/en/library/guidelines-transparency-obligations-providers-and-deployers-ai-systems"
+    },
+    {
+     "title": "European Commission: Code of Practice on transparency of AI-generated content",
+     "url": "https://digital-strategy.ec.europa.eu/en/policies/code-practice-ai-generated-content"
+    }
+   ]
+  },
+  {
+   "text": "For general-purpose AI models, the General-Purpose AI Code of Practice was published on 10 July 2025 (chapters on transparency, copyright, and safety and security for models with systemic risk). The Commission guidelines on the scope of the obligations of general-purpose AI model providers were first published on 18 July 2025; the English document on the Commission page is Communication C(2025) 7719 final of 19 November 2025. They give an indicative criterion for a general-purpose AI model (training compute above 10^23 FLOP and able to generate language, text-to-image or text-to-video) and treat a downstream modifier as the provider of the modified model when the compute used for the modification is greater than a third of the original model's training compute. The Commission and the AI Board confirmed the code is an adequate voluntary tool. Providers may rely on codes of practice until a harmonised standard is published (Articles 53(4) and 55(2)).",
+   "sources": [
+    {
+     "title": "European Commission: The General-Purpose AI Code of Practice",
+     "url": "https://digital-strategy.ec.europa.eu/en/policies/contents-code-gpai"
+    },
+    {
+     "title": "European Commission: Guidelines on the scope of obligations for providers of general-purpose AI models",
+     "url": "https://digital-strategy.ec.europa.eu/en/library/guidelines-scope-obligations-providers-general-purpose-ai-models-under-ai-act"
+    },
+    {
+     "title": "Commission Guidelines on the scope of the obligations for providers of general-purpose AI models, C(2025) 7719 final (English)",
+     "url": "https://ec.europa.eu/newsroom/dae/redirection/document/118340"
+    }
+   ]
+  },
+  {
+   "text": "Standards: Regulation (EU) 2026/1744 gives the delayed availability of standards, common specifications and guidance, and the delayed set-up of national authorities, as the reason for moving the high-risk dates (its recitals 2 and 40).",
+   "sources": [
+    {
+     "title": "Regulation (EU) 2026/1744, recitals 2 and 40",
+     "url": "https://eur-lex.europa.eu/eli/reg/2026/1744/oj/eng"
+    }
+   ]
+  },
+  {
+   "text": "Grace period for systems already on the market: Article 111(2), as replaced, covers high-risk systems placed on the market or put into service before the date Chapter III applies to them; they fall under the Act only after a significant change in design. Recital 39 of Regulation (EU) 2026/1744 says the decisive factor is when the first unit of that type and model was placed on the Union market.",
+   "sources": [
+    {
+     "title": "Regulation (EU) 2026/1744, Article 1, point (39)(a), and recital 39",
+     "url": "https://eur-lex.europa.eu/eli/reg/2026/1744/oj/eng"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,261 @@
+{
+ "id": "5c9e2b71-3f4a-4d6b-9e82-7a1b0c3d5e30",
+ "created": "2026-11-11T20:00:00Z",
+ "model": "gemini-fixture",
+ "version": "1.0.0",
+ "in_scope": true,
+ "refusal": null,
+ "language": "en",
+ "role": "provider",
+ "gpai": {
+  "applies": false,
+  "note": null
+ },
+ "obligations": [
+  {
+   "title": "Tell people they talk to an AI",
+   "detail": "Design the chatbot so users are informed they are interacting with an AI system.",
+   "who": "provider",
+   "citation": {
+    "ref": "art-50-1",
+    "label": "Article 50(1)",
+    "title": "Transparency obligations for providers and deployers of certain AI systems",
+    "quote": "the natural persons concerned are informed that they are interacting with an AI system",
+    "verified": true,
+    "page": 59,
+    "page_url": "https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:02024R1689-20260727#page=59"
+   },
+   "id": "ob-0"
+  },
+  {
+   "title": "AI literacy",
+   "detail": "Take measures that support the AI literacy of the staff who run the chatbot.",
+   "who": "both",
+   "citation": {
+    "ref": "art-4-1",
+    "label": "Article 4(1)",
+    "title": "AI literacy",
+    "quote": "take measures to support the development of AI literacy of their staff",
+    "verified": true,
+    "page": 11,
+    "page_url": "https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:02024R1689-20260727#page=11"
+   },
+   "id": "ob-1"
+  },
+  {
+   "title": "Mark generated content",
+   "detail": "Make sure synthetic text, audio, image or video output is marked in a machine-readable format and detectable as artificially generated.",
+   "who": "provider",
+   "condition": "Only when the chatbot generates synthetic content that is not merely assistive editing.",
+   "amended": "Article 111(4): a system placed on the market before 2 August 2026 has until 2 December 2026 to apply this marking.",
+   "citation": {
+    "ref": "art-50-2",
+    "label": "Article 50(2)",
+    "title": "Transparency obligations for providers and deployers of certain AI systems",
+    "quote": "are marked in a machine-readable format and detectable as artificially generated or manipulated",
+    "verified": true,
+    "page": 59,
+    "page_url": "https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:02024R1689-20260727#page=59"
+   },
+   "id": "ob-2"
+  }
+ ],
+ "open_questions": [
+  {
+   "question": "Does the chatbot generate text that is published to inform the public?",
+   "why": "Article 50(4) adds a disclosure duty for such text."
+  }
+ ],
+ "disclaimer": "Draft assessment only. Not legal advice. Quotes are checked against the consolidated text of the AI Act of 27 July 2026, published by EUR-Lex. A consolidated text is a documentation tool without legal effect; the authentic text is the one published in the Official Journal of the European Union. Recitals are quoted from the Official Journal version of 2024. The model can be wrong or overly certain. Verify against the cited text and consult a qualified professional before you make decisions.",
+ "summary": "A customer service chatbot on a webshop that answers questions about orders and returns and hands over to a human agent when asked.",
+ "risk_class": "limited",
+ "confidence": "medium",
+ "headline": "The chatbot talks directly with people, so Article 50(1) requires that they are told they are interacting with an AI system.",
+ "steps": [
+  {
+   "id": "scope",
+   "title": "Scope",
+   "question": "Is this an AI system that falls under the Act?",
+   "outcome": "yes",
+   "reasoning": "The chatbot generates answers from the questions it receives, which fits the definition of an AI system.",
+   "citations": [
+    {
+     "ref": "art-3-1",
+     "label": "Article 3(1)",
+     "title": "Definitions",
+     "quote": "‘AI system’ means a machine-based system that is designed to operate with varying levels of autonomy",
+     "verified": true,
+     "page": 5,
+     "page_url": "https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:02024R1689-20260727#page=5"
+    }
+   ]
+  },
+  {
+   "id": "prohibited",
+   "title": "Prohibited practices",
+   "question": "Is it a prohibited AI practice under Article 5?",
+   "outcome": "no",
+   "reasoning": "Answering order questions is not one of the Article 5 practices.",
+   "citations": []
+  },
+  {
+   "id": "high_risk",
+   "title": "High-risk classification",
+   "question": "Is it high-risk under Article 6(1) with Annex I or Article 6(2) with Annex III?",
+   "outcome": "no",
+   "reasoning": "Customer service for a webshop is not in Annex III and the chatbot is not a safety component of an Annex I product.",
+   "citations": [
+    {
+     "ref": "art-6-2",
+     "label": "Article 6(2)",
+     "title": "Classification rules for high-risk AI systems",
+     "quote": "AI systems referred to in Annex III shall be considered to be high-risk.",
+     "verified": true,
+     "page": 18,
+     "page_url": "https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:02024R1689-20260727#page=18"
+    }
+   ]
+  },
+  {
+   "id": "exemption",
+   "title": "Article 6(3) exemption",
+   "question": "Does the Article 6(3) exemption take it out of the high-risk class?",
+   "outcome": "not_applicable",
+   "reasoning": "Not reached: an earlier step already decided the result.",
+   "citations": []
+  },
+  {
+   "id": "transparency",
+   "title": "Transparency duties",
+   "question": "Do the Article 50 transparency obligations apply?",
+   "outcome": "yes",
+   "reasoning": "The chatbot interacts directly with natural persons, so they must be informed, unless that is obvious from the context.",
+   "citations": [
+    {
+     "ref": "art-50-1",
+     "label": "Article 50(1)",
+     "title": "Transparency obligations for providers and deployers of certain AI systems",
+     "quote": "Providers shall ensure that AI systems intended to interact directly with natural persons are designed and developed in such a way that the natural persons concerned are informed that they are interacting with an AI system",
+     "verified": true,
+     "page": 59,
+     "page_url": "https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:02024R1689-20260727#page=59"
+    }
+   ]
+  },
+  {
+   "id": "gpai",
+   "title": "General-purpose AI",
+   "question": "Is a general-purpose AI model provided, with Chapter V obligations?",
+   "outcome": "unclear",
+   "reasoning": "The description does not say whether the chatbot is built on a general-purpose model. If it is, the model provider has its own duties under Chapter V; the webshop does not take them over.",
+   "citations": []
+  }
+ ],
+ "deadlines": [
+  {
+   "id": "entry-into-force",
+   "date": "2024-08-01",
+   "label": "The AI Act enters into force",
+   "detail": "Article 113: the Regulation enters into force on the twentieth day after its publication in the Official Journal (12 July 2024). Entry into force is not the same as application: most rules apply later, see the dates below.",
+   "status": "in_force",
+   "source_ref": "art-113",
+   "source_label": "Article 113",
+   "page_url": "https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:02024R1689-20260727#page=127"
+  },
+  {
+   "id": "prohibitions",
+   "date": "2025-02-02",
+   "label": "Prohibited practices and AI literacy apply",
+   "detail": "Article 113, third paragraph, point (a): Chapters I and II (general provisions including Article 4 AI literacy, and the Article 5 prohibitions) apply from 2 February 2025, except Article 5(1), points (ba) and (bb), and Article 5(1a) and (1b), which apply from 2 December 2026. Article 4 in its current wording (support the development of AI literacy) applies since Regulation (EU) 2026/1744 entered into force on 27 July 2026.",
+   "status": "in_force",
+   "source_ref": "art-113",
+   "source_label": "Article 113",
+   "page_url": "https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:02024R1689-20260727#page=127"
+  },
+  {
+   "id": "penalties",
+   "date": "2025-08-02",
+   "label": "Penalty rules apply",
+   "detail": "Article 113, third paragraph, point (b): Chapter XII (penalties) applies from 2 August 2025. Breaking an Article 5 prohibition can be fined up to EUR 35 000 000 or, if the offender is an undertaking, up to 7 % of total worldwide annual turnover, whichever is higher (Article 99(3)); breaches of other duties, including Articles 16, 26 and 50, up to EUR 15 000 000 or 3 % (Article 99(4)). For SMEs and start-ups the lower of the two amounts applies (Article 99(6)); for SMCs the lower amount applies to the fines of paragraphs 4 and 5 (Article 99(6a)).",
+   "status": "in_force",
+   "source_ref": "art-113",
+   "source_label": "Article 113",
+   "page_url": "https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:02024R1689-20260727#page=127"
+  },
+  {
+   "id": "omnibus-in-force",
+   "date": "2026-07-27",
+   "label": "Digital Omnibus on AI enters into force",
+   "detail": "Regulation (EU) 2026/1744 of 8 July 2026, published in the Official Journal on 24 July 2026, enters into force on the third day after publication (its Article 4). From this date Articles 102 to 110 apply (Article 113, third paragraph, point (d)), and the amended provisions that have no later date, such as Article 4 and Article 4a, apply. It moves the high-risk dates, adds two prohibitions from 2 December 2026 and adds a transition period for Article 50(2).",
+   "status": "in_force",
+   "source_ref": "art-113",
+   "source_label": "Article 113",
+   "page_url": "https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:02024R1689-20260727#page=127"
+  },
+  {
+   "id": "general-application",
+   "date": "2026-08-02",
+   "label": "General date of application",
+   "detail": "Article 113, second paragraph: the Regulation applies from 2 August 2026, except where Article 113 sets another date. This includes Chapter IV (Article 50 transparency duties) and Article 101 (fines for general-purpose AI model providers). Chapter III Sections 1 to 3 (high-risk classification, requirements and obligations) no longer apply from this date: Regulation (EU) 2026/1744 moved them, see the high-risk entries.",
+   "status": "in_force",
+   "source_ref": "art-113",
+   "source_label": "Article 113",
+   "page_url": "https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:02024R1689-20260727#page=127"
+  },
+  {
+   "id": "transparency",
+   "date": "2026-08-02",
+   "label": "Transparency duties of Article 50 apply",
+   "detail": "Article 50 is in Chapter IV, which follows the general date of application in Article 113. Regulation (EU) 2026/1744 did not move this date; it only added a later date for Article 50(2) marking by systems already on the market (next entry). A high-risk system can carry Article 50 duties as well (Article 50(6)).",
+   "status": "in_force",
+   "source_ref": "art-50",
+   "source_label": "Article 50",
+   "page_url": "https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:02024R1689-20260727#page=59"
+  },
+  {
+   "id": "transparency-legacy-marking",
+   "date": "2026-12-02",
+   "label": "Machine-readable marking for generative systems already on the market",
+   "detail": "Article 111(4): providers of AI systems, including general-purpose AI systems, generating synthetic audio, image, video or text content that were placed on the market before 2 August 2026 must comply with Article 50(2) by 2 December 2026. Systems placed on the market from 2 August 2026 must comply from the start.",
+   "status": "upcoming",
+   "source_ref": "art-111-4",
+   "source_label": "Article 111(4)",
+   "page_url": "https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:02024R1689-20260727#page=124"
+  }
+ ],
+ "high_risk_basis": "none",
+ "verification": {
+  "total": 3,
+  "verified": 3
+ },
+ "sources": [
+  {
+   "ref": "art-3",
+   "label": "Article 3",
+   "title": "Definitions",
+   "page": 5,
+   "page_url": "https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:02024R1689-20260727#page=5"
+  },
+  {
+   "ref": "art-6",
+   "label": "Article 6",
+   "title": "Classification rules for high-risk AI systems",
+   "page": 17,
+   "page_url": "https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:02024R1689-20260727#page=17"
+  },
+  {
+   "ref": "art-50",
+   "label": "Article 50",
+   "title": "Transparency obligations for providers and deployers of certain AI systems",
+   "page": 59,
+   "page_url": "https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:02024R1689-20260727#page=59"
+  },
+  {
+   "ref": "art-4",
+   "label": "Article 4",
+   "title": "AI literacy",
+   "page": 11,
+   "page_url": "https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:02024R1689-20260727#page=11"
+  }
+ ]
+}

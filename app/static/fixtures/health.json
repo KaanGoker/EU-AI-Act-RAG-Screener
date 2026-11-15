@@ -1,0 +1,13 @@
+{
+ "status": "ok",
+ "version": "1.0.0",
+ "llm_ready": true,
+ "fake_llm": true,
+ "model": "fake",
+ "units": 313,
+ "corpus": true,
+ "text_version": "Consolidated text of 27 July 2026",
+ "retrieval": "hybrid",
+ "timeline": true,
+ "obligations": true
+}

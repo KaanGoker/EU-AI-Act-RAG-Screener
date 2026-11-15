@@ -1,0 +1,27 @@
+{
+ "question": "When does a system listed in Annex III escape the high-risk class?",
+ "citations": [
+  {
+   "ref": "art-6-3",
+   "label": "Article 6(3)",
+   "title": "Classification rules for high-risk AI systems",
+   "page": 18,
+   "page_url": "https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:02024R1689-20260727#page=18"
+  },
+  {
+   "ref": "art-6-2",
+   "label": "Article 6(2)",
+   "title": "Classification rules for high-risk AI systems",
+   "page": 18,
+   "page_url": "https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:02024R1689-20260727#page=18"
+  },
+  {
+   "ref": "annex-III-4",
+   "label": "Annex III, point 4",
+   "title": "High-risk AI systems referred to in Article 6(2)",
+   "page": 131,
+   "page_url": "https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:02024R1689-20260727#page=131"
+  }
+ ],
+ "answer": "An Annex III system is high-risk by default [Article 6(2)]. It is not high-risk when it does not pose a significant risk of harm to health, safety or fundamental rights, including by not materially influencing the outcome of decision making [Article 6(3)]. That covers a narrow procedural task, improving the result of a completed human activity, detecting decision patterns without replacing the human assessment, or a preparatory task. The exemption never applies when the system profiles natural persons [Article 6(3)]. For example, a tool that filters job applications is listed in [Annex III, point 4] and stays high-risk if it ranks candidates."
+}
